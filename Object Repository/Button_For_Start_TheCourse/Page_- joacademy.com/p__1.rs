@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p__1</name>
+   <tag></tag>
+   <elementGuidId>fd64f3a2-5c3e-4ea6-ab3e-4f71d2947433</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.tw-mt-3.tw-cursor-pointer.tw-text-xl.tw-font-normal.tw-text-white.tw-underline.tw-underline-offset-8</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f459a927-e5e5-4d5f-b792-7579d7149fb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> tw-mt-3 tw-cursor-pointer  tw-text-xl tw-font-normal tw-text-white tw-underline  tw-underline-offset-8</value>
+      <webElementGuid>cb82ae69-4162-4aed-8553-8feece9d0fe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>العودة الى المدرسة</value>
+      <webElementGuid>5aa2befe-0e3d-4388-8398-1e36b5df729c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-gradient-to-br tw-from-[#905DF5] tw-to-[#813BEC]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative !tw-w-full tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] !tw-overflow-hidden&quot;]/div[1]/div[@class=&quot;tw-m-auto  tw-py-8&quot;]/p[@class=&quot;tw-mt-3 tw-cursor-pointer  tw-text-xl tw-font-normal tw-text-white tw-underline  tw-underline-offset-8&quot;]</value>
+      <webElementGuid>e7192a7c-8056-4db7-87ce-a3d0c4a1e6e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/p</value>
+      <webElementGuid>29040607-a23e-4589-9531-430b85ec5c5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='المدرسة'])[1]/following::p[3]</value>
+      <webElementGuid>5bd7e1ca-4d31-4e3b-8f7f-5ad568f6d247</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='معلمون'])[1]/following::p[3]</value>
+      <webElementGuid>6af8a274-c51f-4c6f-b497-6dad1feab2bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الوحدة الاولى'])[1]/preceding::p[1]</value>
+      <webElementGuid>ac23b737-4266-497b-a2c0-1d739d8043de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الوحدة الثانية'])[1]/preceding::p[13]</value>
+      <webElementGuid>6f1d0a74-a142-4ce4-a9ea-c338db384664</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='العودة الى المدرسة']/parent::*</value>
+      <webElementGuid>fe1eab6d-e1cb-488e-a51f-f0b8df33c65e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p</value>
+      <webElementGuid>94b8c86c-b714-4fd6-98e9-fe447cf1384f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'العودة الى المدرسة' or . = 'العودة الى المدرسة')]</value>
+      <webElementGuid>f309b848-f7d0-4ef1-9777-bf9ed2d86e48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
