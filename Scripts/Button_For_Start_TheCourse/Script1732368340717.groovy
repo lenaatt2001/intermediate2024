@@ -43,32 +43,43 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_start the coures'))
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-// تحديد اسم الكورس من صفحة الكورسات
-TestObject courseNameInList = findTestObject('Object Repository/CourseNameInList')
-String courseNameList = WebUI.getText(courseNameInList)
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+// فتح المتصفح والانتقال إلى صفحة الكورسات
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://www.joacademy.com/user/courses')
+
+// تحديد اسم أول كورس من القائمة
+TestObject firstCourseName = findTestObject('Object Repository/FirstCourseName') // تأكد من إضافة كائن يمثل اسم أول كورس
+String courseNameInList = WebUI.getText(firstCourseName)
 
 // طباعة اسم الكورس للتحقق
-println("ياضيات - الصف السادس - الفصل الاول - علا شحادة " + courseNameList)
+println("Course name in the list: " + courseNameInList)
 
-// الضغط على الكورس للدخول إلى صفحة التفاصيل
-WebUI.click(courseNameInList)
+// الضغط على أول كورس للدخول إلى صفحة التفاصيل
+WebUI.click(firstCourseName)
 
-// تحديد اسم الكورس من صفحة التفاصيل
-TestObject courseNameInDetails = findTestObject('Object Repository/CourseNameInDetails')
-String courseNameDetails = WebUI.getText(courseNameInDetails)
+// الانتظار حتى يتم تحميل صفحة التفاصيل
+WebUI.waitForPageLoad(10) // الانتظار 10 ثواني كحد أقصى لتحميل الصفحة
 
-// طباعة اسم الكورس من صفحة التفاصيل
-println("Course name in details page: " + courseNameDetails)
+// جلب اسم الكورس من صفحة التفاصيل
+TestObject detailCourseName = findTestObject('Object Repository/DetailCourseName') // تأكد من إضافة كائن يمثل اسم الكورس داخل صفحة التفاصيل
+String courseNameInDetails = WebUI.getText(detailCourseName)
+
+// طباعة اسم الكورس من صفحة التفاصيل للتحقق
+println("Course name in details page: " + courseNameInDetails)
 
 // مقارنة الاسمين
-if (courseNameList.equals(courseNameDetails)) {
-	println("The course names match.")
+if (courseNameInList.equals(courseNameInDetails)) {
+    println("The course names match!")
 } else {
-	println("The course names do not match!")
+    println("The course names do not match!")
 }
 
-// تحقق إذا كان اسم الكورس متطابقاً:
-assert courseNameList.equals(courseNameDetails) : "Course names are not matching!"
+// تحقق باستخدام Assert
+assert courseNameInList.equals(courseNameInDetails) : "The course names do not match!"
+
+//this is tesing 
 
 
 WebUI.doubleClick(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/Button_close_the_unit'))
