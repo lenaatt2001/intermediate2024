@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_gruop_ofsupject_mathe</name>
+   <tag></tag>
+   <elementGuidId>7381e5d8-3c7c-4538-9074-0f8ab4e2267d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = 'مادة الرياضيات' or . = 'مادة الرياضيات')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>98a320f8-4246-4e9b-9cba-f27b973ede06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>045b7894-d781-42fb-b0a0-4003b91f0322</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-h-[40px] tw-min-w-[96px] tw-rounded-[14px] tw-px-2 tw-text-sm tw-text-white tw-transition-transform hover:tw-scale-105 tw-bg-black/20</value>
+      <webElementGuid>9b65a9c4-db8c-4241-8331-3cce2e154fba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>مادة الرياضيات</value>
+      <webElementGuid>e10d3102-417f-4ad0-b9a5-583300a3170f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scroll-to-filter-container&quot;)/div[@class=&quot;tw-my-3 tw-flex tw-w-full tw-flex-col&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-wrap tw-gap-4&quot;]/button[@class=&quot;tw-h-[40px] tw-min-w-[96px] tw-rounded-[14px] tw-px-2 tw-text-sm tw-text-white tw-transition-transform hover:tw-scale-105 tw-bg-black/20&quot;]</value>
+      <webElementGuid>e2eea36c-65e7-4185-9425-56aa43d92243</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@value='20']</value>
+      <webElementGuid>51c6808f-d99a-4c9e-921f-3562fc456c14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scroll-to-filter-container']/div[3]/div[2]/button</value>
+      <webElementGuid>d3b5785b-ea7e-46a3-9000-25ce910bec79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='حذف التعيينات'])[1]/following::button[1]</value>
+      <webElementGuid>16b41ece-c549-4c23-bd12-e06a0577de20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر المعلم'])[1]/following::button[2]</value>
+      <webElementGuid>8b7a90d7-1242-4c27-8b61-1d07ff3103db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مادة اللغة العربية'])[1]/preceding::button[1]</value>
+      <webElementGuid>ad53a238-15ab-4ea5-9f7a-cf63838cfdae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مادة العلوم'])[1]/preceding::button[2]</value>
+      <webElementGuid>c2a19cb8-e6d8-4f3c-89f8-6add643ed1c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='مادة الرياضيات']/parent::*</value>
+      <webElementGuid>667c4ab3-65ab-49b2-b042-6f0e740b1211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>19e56cca-7f37-46ed-93e8-694aefc941bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'مادة الرياضيات' or . = 'مادة الرياضيات')]</value>
+      <webElementGuid>49a7b58b-389c-44ba-8f12-f575d5229be8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

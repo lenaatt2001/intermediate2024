@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_for _option_subject</name>
+   <tag></tag>
+   <elementGuidId>5a2492d1-fc27-492c-bb7b-ebdaed7aeccd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dyz3mf</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scroll-to-filter-container']/div[2]/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>21d905e5-6ef3-4bd3-ae5e-26efa13c7183</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-1dyz3mf</value>
+      <webElementGuid>66e0f8b7-1121-4c45-b5dc-765cac5f6e0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>رياضيات الصف الرابع - فصل أول</value>
+      <webElementGuid>8d7d28be-f113-48ec-aa78-13f14726f51e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scroll-to-filter-container&quot;)/div[@class=&quot;tw-grid tw-grid-cols-1 tw-gap-4 md:tw-grid-cols-2 xl:tw-grid-cols-auto-fit&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-gap-3&quot;]/div[@class=&quot;css-b62m3t-container&quot;]/div[@class=&quot;css-pnr4qt-control&quot;]/div[@class=&quot;css-1dyz3mf&quot;]</value>
+      <webElementGuid>fcf73f7d-8f9c-4222-82df-2f4a3478b2c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scroll-to-filter-container']/div[2]/div[2]/div/div/div</value>
+      <webElementGuid>6ffca445-74c8-4ad5-9427-2d1c9753b299</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='المواد'])[1]/following::div[3]</value>
+      <webElementGuid>2c571ad6-1e6e-4630-b659-f091b8b50060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الصف الرابع'])[1]/following::div[8]</value>
+      <webElementGuid>a41d4e8a-e5a5-4c24-ba7f-2b84d0ac92c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رياضيات الصف الرابع - فصل ثاني'])[1]/preceding::div[8]</value>
+      <webElementGuid>c95748b4-9a4f-4837-801f-78daf1b1a58c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div[2]/div/div/div</value>
+      <webElementGuid>27be4672-5ba1-4ec8-bdec-8862795c268a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'رياضيات الصف الرابع - فصل أول' or . = 'رياضيات الصف الرابع - فصل أول')]</value>
+      <webElementGuid>11693bf8-cdc9-418b-a2b2-7323d76329f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

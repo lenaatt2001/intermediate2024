@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>result_teacher_in_card</name>
+   <tag></tag>
+   <elementGuidId>4183c70d-0437-4268-8176-80eb197c9bf2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/section/div[2]/section/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e2875311-a2a4-4310-a187-546b94acb49e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-flex tw-items-center tw-gap-2 tw-transition-transform hover:tw-scale-105</value>
+      <webElementGuid>0168c508-d429-4bd6-8087-528dc25d4862</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>روان رافع</value>
+      <webElementGuid>b46711c9-0fae-4656-b54d-9119047cf1c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-gradient-to-br tw-from-[#905DF5] tw-to-[#813BEC]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative !tw-w-full tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] !tw-overflow-hidden&quot;]/div[1]/section[@class=&quot;tw-my-5 tw-space-y-8 tw-px-2 md:tw-px-10&quot;]/div[@class=&quot;tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 !tw-border-none tw-p-5 !tw-bg-[#AA8CF9]&quot;]/section[@class=&quot;tw-flex tw-w-full tw-flex-col tw-items-stretch tw-justify-center tw-gap-4 tw-py-4&quot;]/div[@class=&quot;tw-grid tw-items-stretch tw-grid-cols-1 md:tw-grid-cols-2 lg:tw-grid-cols-3 xl:tw-grid-cols-4 tw-mb-[35px] tw-h-full tw-gap-[10px] xl:tw-gap-[16px]&quot;]/div[@class=&quot;tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 !tw-flex !tw-w-full tw-cursor-pointer tw-flex-col tw-justify-between tw-overflow-hidden tw-border-none !tw-text-white !tw-bg-[#6524BF] !tw-border !tw-shadow-lg&quot;]/div[@class=&quot;tw-p-6 tw-pt-0 !tw-flex !tw-flex-col tw-gap-2 !tw-px-2 !tw-pb-4 !tw-pt-2&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-gap-3&quot;]/div[@class=&quot;tw-flex tw-items-center tw-gap-2 tw-transition-transform hover:tw-scale-105&quot;]</value>
+      <webElementGuid>7a006500-36f3-4aa1-a0a1-11fa66f88029</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/section/div[2]/section/div/div/div[2]/div/div</value>
+      <webElementGuid>48118a87-e9f4-46e7-a358-ac48fef315cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مادة اللغة الانجليزية'])[1]/following::div[8]</value>
+      <webElementGuid>ae1c86cf-f164-4be8-b98f-1ba965229cab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مادة العلوم'])[1]/following::div[8]</value>
+      <webElementGuid>6a9d5c08-3196-4e34-a8d4-3fef1741f89e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::div[1]</value>
+      <webElementGuid>c74ca1b5-e4a5-4768-b748-f87c2a429eb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='روابط سريعة'])[1]/preceding::div[2]</value>
+      <webElementGuid>4d91322c-6636-4ff5-8f18-ddc5dc93a534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/section/div/div/div[2]/div/div</value>
+      <webElementGuid>9dcae9e9-5fd1-4319-95b3-de4e618e8f30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'روان رافع' or . = 'روان رافع')]</value>
+      <webElementGuid>c68d9b70-7126-46b3-8623-5f1aa7a6571d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

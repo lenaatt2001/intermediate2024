@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_login_by_email</name>
+   <tag></tag>
+   <elementGuidId>98f6150e-73f7-4abf-ac98-95cb04add0a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/div/div/div/section/div[2]/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d213c53a-61e5-499b-81a6-a2ceae6a937c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-flex tw-w-full tw-items-center tw-justify-center tw-gap-[16px] tw-font-bold tw-transition tw-ease-in-out tw-duration-150 tw-py-[15px] tw-text-[18px] hover:tw-bg-[#e6e6e6] hover:tw-text-[#343434] tw-text-[#343434] tw-rounded-[16px] !tw-h-[50px]</value>
+      <webElementGuid>8a9c6be3-c79b-4114-88c1-cabe6f913c71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>من خلال البريد الإلكتروني</value>
+      <webElementGuid>3bd53cf5-b5b0-4836-9bd2-c3bdef0f223c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative !tw-w-full tw-w-full !tw-overflow-hidden&quot;]/div[1]/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-items-center tw-justify-start tw-gap-6 tw-bg-[#F9F9F9] tw-py-10&quot;]/section[@class=&quot;tw-flex tw-w-full tw-max-w-[696px] tw-flex-col tw-rounded-2xl tw-bg-[#ffffff] tw-px-4 tw-py-8 md:tw-px-14&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-w-full tw-rounded-[10px] tw-border-[1px] tw-border-solid tw-border-[#ececec] tw-bg-white tw-p-[10px] md:tw-p-[40px] tw-flex tw-w-full tw-items-center tw-mb-[60px] tw-gap-[10px] tw-rounded-[24px] tw-px-[12px] tw-py-[8px] tw-shadow-none sm:tw-flex md:tw-px-[12px] md:tw-py-[8px] tw-hidden tw-border-[1px] tw-border-solid tw-border-[#ececec] !tw-mb-6 tw-h-[64px] !tw-p-2 tw-bg-[#f4f4f4]&quot;]/div[@class=&quot;tw-w-full&quot;]/button[@class=&quot;tw-flex tw-w-full tw-items-center tw-justify-center tw-gap-[16px] tw-font-bold tw-transition tw-ease-in-out tw-duration-150 tw-py-[15px] tw-text-[18px] hover:tw-bg-[#e6e6e6] hover:tw-text-[#343434] tw-text-[#343434] tw-rounded-[16px] !tw-h-[50px]&quot;]</value>
+      <webElementGuid>1ace6adb-114e-4883-9eed-ec2fa1ccf7d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div/div/div/section/div[2]/div/div[2]/button</value>
+      <webElementGuid>444e1aef-dbd5-4515-8a64-d1bdac5b7c28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='من خلال رقم الهاتف'])[1]/following::button[1]</value>
+      <webElementGuid>426429cf-6000-42c5-9cad-e68d8b7ee860</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تسجيل الدخول'])[1]/following::button[2]</value>
+      <webElementGuid>a1715b41-99dd-480e-b499-ba2fe5fc484d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رقم الهاتف'])[1]/preceding::button[1]</value>
+      <webElementGuid>5391d6b6-b5d2-4088-821c-bb54c2431bad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>0fd5a649-0b91-459b-9123-d1b7b01607a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'من خلال البريد الإلكتروني' or . = 'من خلال البريد الإلكتروني')]</value>
+      <webElementGuid>69b7ac8c-141c-47a8-9f8c-fc99e894c42a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

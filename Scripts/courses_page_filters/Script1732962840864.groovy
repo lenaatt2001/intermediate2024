@@ -33,44 +33,21 @@ WebUI.setEncryptedText(findTestObject('Object Repository/lgoin and go to the my 
 WebUI.sendKeys(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/My_Files_Page/Page_- joacademy.com/Button_for_myFiles_page'))
+WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_courses_page'))
 
-WebUI.click(findTestObject('Object Repository/My_Files_Page/Page_- joacademy.com/button_for_share_TheFile'))
+WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_for _option_subject'))
 
-WebUI.click(findTestObject('Object Repository/My_Files_Page/Page_- joacademy.com/button_success_copy_the_file'))
+WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_for _select_subject'))
+WebUI.delay(5)
 
-Boolean buttoncopy = WebUI.verifyElementText(findTestObject('Object Repository/My_Files_Page/Page_- joacademy.com/success_massage_for_copy'), 
-    'تم النسخ بنجاح')
+WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_for _option_teacher'))
 
-if (buttoncopy) {
-    print('passed copy file ')
-} else {
-    print('field copy file ')
-}
-
-WebUI.click(findTestObject('Object Repository/My_Files_Page/Page_- joacademy.com/button_for_download-theFile'))
-
-WebUI.delay(3)
-
-//صفحتين
-int numberOfWindows = WebUI.getWindowIndex()
-
-if (numberOfWindows < 2) {
-    println('لم يتم فتح نافذة جديدة.' // الانتقال إلى النافذة الثانية
-        )
-} else {
-    WebUI.switchToWindowIndex(1)
-}
-
-WebUI.switchToWindowIndex(0)
-
-println('عدنا إلى الصفحة الأصلية: ' + WebUI.getWindowTitle())
-
-WebUI.click(findTestObject('Object Repository/My_Files_Page/Page_- joacademy.com/button_for_seccuss_download'))
+WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_for _select_teacher'))
+WebUI.delay(5)
 
 
-WebUI.click(findTestObject('My_Files_Page/Page_- joacademy.com/button_remove_ToMy_favoret_page'))
-//WebUI.click(findTestObject('My_Files_Page/Page_- joacademy.com/button_add_ToMy_favoret_page'))
+WebUI.verifyElementText(findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_subject_in_card'),'رياضيات الصف الرابع - فصل أول')
 
+WebUI.verifyElementText(findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_teacher_in_card'),'روان رافع')
 
 

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_for_myFiles_page</name>
+   <tag></tag>
+   <elementGuidId>64ebc997-1541-432d-9d5f-196a2fcaa9d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@href, '/user/files') and contains(@class, 'tw-h-[48]')]&#xd;
+//span[text()='ملفاتي']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5d1e9946-9043-43b0-9991-1968aae6555c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-whitespace-nowrap tw-text-[#1A428A] tw-hidden xl:tw-block tw-text-[#1A428A]</value>
+      <webElementGuid>d0da1f97-36e6-4541-9d09-6daa541e7816</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>المشاركة</value>
+      <webElementGuid>09721b5d-5f7d-4061-a546-484771300e68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-gradient-to-br tw-from-[#905DF5] tw-to-[#813BEC]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative !tw-w-full tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] !tw-overflow-hidden&quot;]/div[1]/main[@class=&quot;tw-mt-4 tw-pb-[20px] sm:tw-pb-[50px]&quot;]/section[@class=&quot;tw-py-4&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center tw-mb-[35px] tw-h-full tw-gap-[10px] xl:tw-gap-[16px]&quot;]/div[@class=&quot;tw-relative tw-w-full&quot;]/article[@class=&quot;tw-flex tw-w-full tw-cursor-pointer tw-overflow-hidden tw-rounded-[10px] tw-border tw-gap-4 tw-p-4 tw-bg-[#F9F9F9]&quot;]/section[@class=&quot;tw-flex tw-flex-1 tw-grow tw-items-start tw-justify-between&quot;]/div[@class=&quot;tw-flex tw-h-full tw-items-end tw-gap-3&quot;]/button[@class=&quot;tw-w-full&quot;]/button[@class=&quot;tw-w-full tw-cursor-pointer&quot;]/button[@class=&quot;tw-inline-flex tw-items-center tw-justify-center tw-whitespace-nowrap tw-rounded-md tw-text-sm tw-font-medium tw-ring-offset-white tw-transition-colors focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-slate-950 focus-visible:tw-ring-offset-2 disabled:tw-pointer-events-none disabled:tw-opacity-50 dark:tw-ring-offset-slate-950 dark:focus-visible:tw-ring-slate-300 tw-border tw-border-slate-200 tw-bg-white hover:tw-bg-slate-100 hover:tw-text-slate-900 dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:hover:tw-bg-slate-800 dark:hover:tw-text-slate-50 tw-h-10 tw-px-4 tw-py-2 lg:tw-w-[151px] tw-w-full lg:tw-h-[40px] !tw-rounded-[14px] md:tw-px-4 tw-bg-[#F8F6F6] hover:tw-bg-[#F1F1F1] !tw-border-[#1A428A] !tw-rounded-[8px] !tw-w-full medium&quot;]/div[@class=&quot;tw-flex tw-w-full tw-justify-center tw-gap-2&quot;]/span[@class=&quot;tw-whitespace-nowrap tw-text-[#1A428A] tw-hidden xl:tw-block tw-text-[#1A428A]&quot;]</value>
+      <webElementGuid>faf0b77c-c37f-4035-ba20-eb041e68f4b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/main/section/div/div/article/section/div/button/button/button/div/span</value>
+      <webElementGuid>cf004015-438e-430d-8893-cdd15851b5a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='| عدد مرات التحميل (3)'])[1]/following::span[1]</value>
+      <webElementGuid>dd2bb29e-aa1d-4753-980f-ac817a07ab18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ali Odeh'])[1]/following::span[2]</value>
+      <webElementGuid>e48c6fd7-6322-4554-9e01-28c6d278e689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تحميل الملف'])[1]/preceding::span[1]</value>
+      <webElementGuid>baa42a8f-ca07-46cd-8f27-c868dcc72a97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='المشاركة']/parent::*</value>
+      <webElementGuid>a1975693-9a1d-4776-83be-1dc31afdd47e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/span</value>
+      <webElementGuid>7b8198de-6056-4470-898b-c4277aa05efb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'المشاركة' or . = 'المشاركة')]</value>
+      <webElementGuid>71c59a37-5d1b-4d4b-a29a-baabd87bcdc0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

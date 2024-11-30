@@ -41,45 +41,6 @@ WebUI.delay(5)
 //WebUI.scrollToElement(button_start the coures, 10) // 10 is the timeout in seconds
 
 WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_start the coures'))
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-// فتح المتصفح والانتقال إلى صفحة الكورسات
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://www.joacademy.com/user/courses')
-
-// تحديد اسم أول كورس من القائمة
-TestObject firstCourseName = findTestObject('Object Repository/FirstCourseName') // تأكد من إضافة كائن يمثل اسم أول كورس
-String courseNameInList = WebUI.getText(firstCourseName)
-
-// طباعة اسم الكورس للتحقق
-println("Course name in the list: " + courseNameInList)
-
-// الضغط على أول كورس للدخول إلى صفحة التفاصيل
-WebUI.click(firstCourseName)
-
-// الانتظار حتى يتم تحميل صفحة التفاصيل
-WebUI.waitForPageLoad(10) // الانتظار 10 ثواني كحد أقصى لتحميل الصفحة
-
-// جلب اسم الكورس من صفحة التفاصيل
-TestObject detailCourseName = findTestObject('Object Repository/DetailCourseName') // تأكد من إضافة كائن يمثل اسم الكورس داخل صفحة التفاصيل
-String courseNameInDetails = WebUI.getText(detailCourseName)
-
-// طباعة اسم الكورس من صفحة التفاصيل للتحقق
-println("Course name in details page: " + courseNameInDetails)
-
-// مقارنة الاسمين
-if (courseNameInList.equals(courseNameInDetails)) {
-    println("The course names match!")
-} else {
-    println("The course names do not match!")
-}
-
-// تحقق باستخدام Assert
-assert courseNameInList.equals(courseNameInDetails) : "The course names do not match!"
-
-//this is tesing 
 
 
 WebUI.doubleClick(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/Button_close_the_unit'))
