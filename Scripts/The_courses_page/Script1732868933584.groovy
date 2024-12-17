@@ -16,11 +16,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.JavascriptExecutor
+
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.joacademy.com/courses/intermediate?grade=855')
+WebUI.maximizeWindow()
 
+WebUI.navigateToUrl('https://www.joacademy.com/login')
+
+WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/span_'))
+
+WebUI.setText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'),
+	'aeHFOx8jV/A=')
+
+WebUI.sendKeys(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'),
+	Keys.chord(Keys.ENTER))
+WebUI.delay(10)
+
+WebUI.navigateToUrl('https://www.joacademy.com/courses/intermediate?grade=855')
 
 // تحديد الكلمة المفتاحية للبحث
 String searchKeyword = 'علوم'
@@ -30,87 +48,71 @@ WebUI.setText(findTestObject('Object Repository/Page_- joacademy.com/input__sear
 
 // تأخير بسيط للسماح بتحميل النتائج
 WebUI.delay(2)
+//
+//// إنشاء عنصر ديناميكي باستخدام XPath
+//TestObject dynamicResult = new TestObject('dynamicResult')
+//
+//dynamicResult.addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, ('//h2[contains(text(),\'' + searchKeyword) + 
+//    '\')]')
+//
+//// التمرير إلى العنصر الديناميكي
+////WebUI.scrollToElement(dynamicResult, 5)
+//
+//// التحقق من أن العنصر الديناميكي موجود
+//boolean isCourseFound = WebUI.verifyElementPresent(dynamicResult, 5)
+//
+//if (isCourseFound) {
+//    println('تم العثور على دورة تحتوي على النص المطلوب: ' + searchKeyword)
+//
+//    // التفاعل مع الدورة (مثل فتح التفاصيل)
+//    WebUI.click(dynamicResult)
+//	WebUI.click(findTestObject('Object Repository/Page_- joacademy.com/button_for_detail_thecoursse'))
+//	WebUI.delay(10)
+//	// الرجوع إلى الصفحة السابقة
+//	WebUI.back()
+//     }
+//
+// else {
+//    println('لم يتم العثور على دورة تحتوي على النص المطلوب: ' + searchKeyword)
+//}
 
-// إنشاء عنصر ديناميكي باستخدام XPath
-TestObject dynamicResult = new TestObject('dynamicResult')
 
-dynamicResult.addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, ('//h2[contains(text(),\'' + searchKeyword) + 
-    '\')]')
 
-// التمرير إلى العنصر الديناميكي
-WebUI.scrollToElement(dynamicResult, 5)
+TestObject resetBTN = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_for_reset_filter')
+JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+// Use JavaScript to center the element on the screen
+js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(resetBTN))
 
-// التحقق من أن العنصر الديناميكي موجود
-boolean isCourseFound = WebUI.verifyElementPresent(dynamicResult, 5)
-
-if (isCourseFound) {
-    println('تم العثور على دورة تحتوي على النص المطلوب: ' + searchKeyword)
-
-    // التفاعل مع الدورة (مثل فتح التفاصيل)
-    WebUI.click(dynamicResult)
-	//WebUI.click(findTestObject('Object Repository/Page_- joacademy.com/button_for_detail_thecoursse'))
-	WebUI.delay(10)
-	// الرجوع إلى الصفحة السابقة
-	WebUI.back()
-     }
-
- else {
-    println('لم يتم العثور على دورة تحتوي على النص المطلوب: ' + searchKeyword)
-}
 //WebUI.click(findTestObject('Object Repository/Page_- joacademy.com/button_for_detail_thecoursse'))
 WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_for_reset_filter'))
-// التمرير إلى أسفل الصفحة
-WebUI.scrollToPosition(0, 1000)
 
-// تأخير قليل لمشاهدة التمرير
-WebUI.delay(10)
 
-// التمرير إلى أعلى الصفحة
-WebUI.scrollToPosition(0, 0)
-
+TestObject subjectMath = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_mathe')
+// Use JavaScript to center the element on the screen
+js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectMath))
 WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_mathe'))
-// التمرير إلى أسفل الصفحة
-WebUI.scrollToPosition(0, 1000)
 
-// تأخير قليل لمشاهدة التمرير
-WebUI.delay(10)
 
-// التمرير إلى أعلى الصفحة
-WebUI.scrollToPosition(0, 0)
-WebUI.delay(5)
 
+TestObject subjectArabic = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_arabic')
+// Use JavaScript to center the element on the screen
+js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectArabic))
 WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_arabic'))
-// التمرير إلى أسفل الصفحة
-WebUI.scrollToPosition(0, 1000)
 
-// تأخير قليل لمشاهدة التمرير
-WebUI.delay(10)
 
-// التمرير إلى أعلى الصفحة
-WebUI.scrollToPosition(0, 0)
-WebUI.delay(5)
-
+TestObject subjectScience = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_science')
+// Use JavaScript to center the element on the screen
+js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectScience))
 WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_science'))
-// التمرير إلى أسفل الصفحة
-WebUI.scrollToPosition(0, 1000)
 
-// تأخير قليل لمشاهدة التمرير
-WebUI.delay(10)
 
-// التمرير إلى أعلى الصفحة
-WebUI.scrollToPosition(0, 0)
-WebUI.delay(5)
 
+TestObject subjectEnglish = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_English')
+// Use JavaScript to center the element on the screen
+js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectEnglish))
 WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_English'))
-// التمرير إلى أسفل الصفحة
-WebUI.scrollToPosition(0, 1000)
 
-// تأخير قليل لمشاهدة التمرير
-WebUI.delay(10)
 
-// التمرير إلى أعلى الصفحة
-WebUI.scrollToPosition(0, 0)
-WebUI.delay(5)
 
 
 

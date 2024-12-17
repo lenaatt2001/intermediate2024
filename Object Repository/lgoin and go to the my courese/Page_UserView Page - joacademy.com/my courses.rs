@@ -6,12 +6,11 @@
    <elementGuidId>cc61d341-a807-4d89-9e2f-504ff1e59e99</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebar-card']/div/div/div/a[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@href = '/user/courses' and (text() = 'دوراتي' or . = 'دوراتي')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b15e77c0-f3bc-47d1-9c93-b24e31591a46</webElementGuid>
+      <webElementGuid>5d50f18d-4a07-4e7c-a271-0a2b1903c260</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value> false medium tw-flex tw-h-[48] tw-w-full tw-items-center tw-gap-4 tw-rounded-[10px] tw-text-[16px] tw-bg-[#6524BF] tw-text-white tw-shadow-lg</value>
-      <webElementGuid>013c7453-4fc7-4e8b-b007-567254b52954</webElementGuid>
+      <webElementGuid>74897997-0aca-4599-aa79-c6b66d073882</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/user/courses</value>
-      <webElementGuid>d57c3ebe-4384-4828-8320-d3c200979c44</webElementGuid>
+      <webElementGuid>1a6b51bd-04bc-4313-be06-64d74515f1ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>دوراتي</value>
-      <webElementGuid>1b8ed136-314f-4087-8058-405cbebf9160</webElementGuid>
+      <webElementGuid>01311d52-a8b9-4fed-aad7-c1f8909a85dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebar-card&quot;)/div[@class=&quot;tw-h-full tw-rounded-none lg:tw-rounded-[14px] tw-bg-[#AA8CF9]&quot;]/div[@class=&quot;tw-flex tw-h-full tw-flex-col tw-items-start tw-gap-[10px]&quot;]/div[@class=&quot;tw-w-full tw-space-y-6 tw-p-6&quot;]/a[@class=&quot;false medium tw-flex tw-h-[48] tw-w-full tw-items-center tw-gap-4 tw-rounded-[10px] tw-text-[16px] tw-bg-[#6524BF] tw-text-white tw-shadow-lg&quot;]</value>
-      <webElementGuid>d38e53bb-13af-47cc-8fec-01f02f754797</webElementGuid>
+      <webElementGuid>1f057c3b-8c47-4d4e-8ae0-29a9765a936d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebar-card']/div/div/div/a[2]</value>
-      <webElementGuid>ebd4212a-4a7d-4e1b-b109-0aa1b19ea107</webElementGuid>
+      <webElementGuid>0f6462ac-f678-4bc6-a2bc-c7d4aa58a115</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='الصفحة الرئيسية'])[1]/following::a[1]</value>
-      <webElementGuid>3082c29b-cced-441b-b2fd-9b2287a1fda7</webElementGuid>
+      <webElementGuid>b0200aa8-30f6-4071-adac-84df764bc0d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='مكتبات'])[1]/following::a[8]</value>
-      <webElementGuid>0607f3ed-e7af-44ed-a8a4-c989cfddde9d</webElementGuid>
+      <webElementGuid>e9dc08af-f003-4e8a-a0c4-b056fcdcaead</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ملفاتي'])[1]/preceding::a[1]</value>
-      <webElementGuid>4c237a24-f3c4-48b4-b77c-c1b256a2f71e</webElementGuid>
+      <webElementGuid>6714af98-d110-4447-99f1-cd7c49f2340d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/user/courses')]</value>
-      <webElementGuid>2004750d-cb56-4cbb-9497-d716b6b4c6cd</webElementGuid>
+      <webElementGuid>7fe10a81-aad9-4d68-982e-3b56d4175768</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/a[2]</value>
-      <webElementGuid>7c1b6e97-3df6-437e-b4ac-6a20ee70a6c1</webElementGuid>
+      <webElementGuid>c971a992-16dc-406e-b433-bb879ceffe11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/user/courses' and (text() = 'دوراتي' or . = 'دوراتي')]</value>
-      <webElementGuid>b94d5266-eb7d-4e91-9ad5-3facd56a3d02</webElementGuid>
+      <webElementGuid>54685122-9f43-4cca-a2c7-3d57a75adcd5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

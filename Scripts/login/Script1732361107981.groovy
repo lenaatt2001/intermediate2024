@@ -33,7 +33,12 @@ WebUI.sendKeys(findTestObject('Object Repository/lgoin and go to the my courese/
 
 WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_UserView Page - joacademy.com/my courses'))
 
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/verify title page'))
 
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/button_Close'))
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/verify title page'), 0)) {
+	WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/verify title page'))
+}
+
+//WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/verify title page'))
+
+//WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/button_Close'))
 

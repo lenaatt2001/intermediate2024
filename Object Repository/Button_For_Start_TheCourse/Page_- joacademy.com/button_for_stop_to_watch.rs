@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <value>//div/button</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>04eeca32-d8af-476e-9970-c8c315f614a9</webElementGuid>
+      <webElementGuid>0eb344e5-f731-4d49-8a99-f20680260926</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Button_module_button__779846a6 shared_module_focusable__fd03e359 Button_module_icon__779846a6 exclude-global-button-styles Tooltip_module_tooltipContainer__d9b61844 PlayButton_module_playButton__78ddc17f shared_module_focusable__fd03e359</value>
-      <webElementGuid>3fdf516c-a9f2-478e-86f4-8caf5887ad3c</webElementGuid>
+      <webElementGuid>477f6b5d-0010-4936-b187-0f5f827772b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bcec6d02-a5f9-4158-9437-756026a96e43</webElementGuid>
+      <webElementGuid>fbb2a78b-456e-489d-bcfd-4c5fcd6fab63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>data-play-button</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>dd356997-3542-47f9-a354-928b0bf9e52a</webElementGuid>
+      <webElementGuid>c210da9c-69ae-463d-9cc3-8165a80d131e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>play-button-tooltip</value>
-      <webElementGuid>4cf5a0d2-c810-44a7-b734-728e4c3f17c9</webElementGuid>
+      <webElementGuid>cf5a738e-533d-42e4-a721-3904cff6ae57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>data-touch-device</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b861afc8-86a3-4882-81a2-5d6adcaa5012</webElementGuid>
+      <webElementGuid>f018471e-785e-47d0-b68f-c671d3248302</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Play</value>
-      <webElementGuid>a9c382fe-83b6-4faa-ae1f-5ef43bec674c</webElementGuid>
+      <webElementGuid>c1faf3af-ae4d-460f-973c-be3f9db9d98c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;player&quot;)/div[@class=&quot;vp-player-ui-overlays content-area-sibling-enabled&quot;]/div[@class=&quot;ControlBar_module_controlBarWrapper__6e152b0c&quot;]/div[@class=&quot;PlayButton_module_playButtonWrapper__78ddc17f&quot;]/button[@class=&quot;Button_module_button__779846a6 shared_module_focusable__fd03e359 Button_module_icon__779846a6 exclude-global-button-styles Tooltip_module_tooltipContainer__d9b61844 PlayButton_module_playButton__78ddc17f shared_module_focusable__fd03e359&quot;]</value>
-      <webElementGuid>f287899f-1146-46c8-8501-ae18367bc07d</webElementGuid>
+      <webElementGuid>c09223ce-0594-45cb-88a8-c66f488ec34e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/iframe</value>
-      <webElementGuid>5e4fcb26-ce66-42c7-89b7-e54c0c2799e4</webElementGuid>
+      <webElementGuid>1269a35f-15af-446f-b1ad-aa9d94d5207a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>adaf5d8c-d1d6-4b0e-91c5-50f35891df50</webElementGuid>
+      <webElementGuid>720ec301-b4ac-4aad-94c1-32fe95c38173</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='player']/div[7]/div[8]/div/button</value>
-      <webElementGuid>b871edc6-0704-4f46-a4da-5742fbd55fc7</webElementGuid>
+      <webElementGuid>55225da8-5a76-48b7-9c72-11e4f7d40679</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Playing in picture-in-picture'])[1]/following::button[2]</value>
-      <webElementGuid>7a96237e-8585-4e29-92e8-31c14c68a4ec</webElementGuid>
+      <webElementGuid>6c8a5f3e-cdcc-48a1-b1cb-0389444e5446</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Quality'])[1]/preceding::button[3]</value>
-      <webElementGuid>1424e0a1-97e7-41e4-88b7-dbc1b2fd16d1</webElementGuid>
+      <webElementGuid>796cd366-a0a3-47b9-b4b2-9b09ad7581a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto'])[1]/preceding::button[3]</value>
-      <webElementGuid>3b979486-fec4-46ca-b47f-2fe96e341d5b</webElementGuid>
+      <webElementGuid>691e7781-4b73-419a-baf1-34156f5cd31c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button</value>
-      <webElementGuid>16b46287-10a8-4d00-af4d-1e501b7a0943</webElementGuid>
+      <webElementGuid>5dee052e-98f1-46bb-b922-84934a9ac6af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +143,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Play' or . = 'Play')]</value>
-      <webElementGuid>e95a085c-d11f-44f6-84f8-77b1596b5f77</webElementGuid>
+      <webElementGuid>df6cd2ef-8d4e-4186-b0ee-22474de9ec42</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

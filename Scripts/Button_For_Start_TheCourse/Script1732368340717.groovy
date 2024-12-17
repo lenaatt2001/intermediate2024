@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.JavascriptExecutor
 
 WebUI.openBrowser("https://www.joacademy.com/login")
 
@@ -38,8 +41,10 @@ WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Pag
 
 WebUI.delay(5)	
 
-//WebUI.scrollToElement(button_start the coures, 10) // 10 is the timeout in seconds
-
+TestObject courseStartBTN = findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_start the coures')
+JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+// Use JavaScript to center the element on the screen
+js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(courseStartBTN))
 WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_start the coures'))
 
 
@@ -56,11 +61,13 @@ WebUI.switchToFrame(findTestObject('Object Repository/Button_For_Start_TheCourse
 //click start video
 WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_for_start_to_watch'))
 
+WebUI.delay(5)
+
 // Step 3: Switch back to the main page
 WebUI.switchToDefaultContent()
 
-//click stop video
 WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_for_stop_to_watch'))
+
 
 WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/Button_for_arrow_left'))
 

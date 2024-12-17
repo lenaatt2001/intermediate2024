@@ -6,12 +6,11 @@
    <elementGuidId>fee557cf-55cb-4539-a22c-2c9377ddd8be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>30c968da-8c7b-44fe-a211-8aca55a07e74</webElementGuid>
+      <webElementGuid>95167ef7-21a3-4071-82d3-09a2ff794ecd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f3db7b41-350b-40e6-8c2e-5c6190d5b060</webElementGuid>
+      <webElementGuid>b76e0e39-5c29-48e9-b22c-904358a30e36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>focus:tw-ring-ring data-[state=open]:tw-bg-accent data-[state=open]:tw-text-muted-foreground tw-absolute tw-end-4 tw-top-4 tw-z-10 tw-m-auto tw-flex tw-h-[35px] tw-h-[45px] tw-w-[35px] tw-w-[45px] tw-cursor-pointer tw-items-center tw-justify-center tw-rounded-full tw-bg-white tw-leading-none tw-shadow tw-transition tw-duration-150 tw-ease-in-out hover:tw-bg-[#efefef] focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-offset-2 disabled:tw-pointer-events-none</value>
-      <webElementGuid>27384812-6b89-4018-adf2-ef933e40c128</webElementGuid>
+      <webElementGuid>8884a872-d1cf-437a-9131-c35d5e141383</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Close</value>
-      <webElementGuid>6caa5ebf-144f-40e9-9fda-f010174205fd</webElementGuid>
+      <webElementGuid>fe60e26a-e7c9-4dec-bfe8-a47ccbea3fee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:r1a:&quot;)/button[@class=&quot;focus:tw-ring-ring data-[state=open]:tw-bg-accent data-[state=open]:tw-text-muted-foreground tw-absolute tw-end-4 tw-top-4 tw-z-10 tw-m-auto tw-flex tw-h-[35px] tw-h-[45px] tw-w-[35px] tw-w-[45px] tw-cursor-pointer tw-items-center tw-justify-center tw-rounded-full tw-bg-white tw-leading-none tw-shadow tw-transition tw-duration-150 tw-ease-in-out hover:tw-bg-[#efefef] focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-offset-2 disabled:tw-pointer-events-none&quot;]</value>
-      <webElementGuid>f2142683-d58e-403b-8966-96ed7531a850</webElementGuid>
+      <webElementGuid>5fafd146-8100-4af3-a6a1-a486c03d4abf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>9991fd34-9c37-4e90-8833-6f4c41bcab14</webElementGuid>
+      <webElementGuid>8dedcd7f-5dfb-436b-bccd-b485146ded5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-:r1a:']/button</value>
-      <webElementGuid>d35fd24e-e641-45f3-bf0b-91325d80c95a</webElementGuid>
+      <webElementGuid>cc4249ef-33da-4292-94ae-3465bd7e00c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='احصل على العروض'])[1]/following::button[1]</value>
-      <webElementGuid>e3e7baed-5bb2-4893-b70b-16318f595402</webElementGuid>
+      <webElementGuid>f3b24edb-415d-4785-9d47-ad8318399cb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='بدأت مفاجآتنا الآن!'])[1]/following::button[2]</value>
-      <webElementGuid>c708f732-bb40-4bdf-b4d7-650600518f2c</webElementGuid>
+      <webElementGuid>7af610e4-7d8b-4d8e-b3d6-76aed0a23dd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>feca4613-875a-436f-b25c-77ce1e9a79d0</webElementGuid>
+      <webElementGuid>ce06ace4-c7df-423d-b198-f4fe3ff594ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
-      <webElementGuid>0b150d95-461e-4560-a3aa-02f9dc5ce3d7</webElementGuid>
+      <webElementGuid>4c359179-173d-4edd-a49f-9a8fe5431695</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

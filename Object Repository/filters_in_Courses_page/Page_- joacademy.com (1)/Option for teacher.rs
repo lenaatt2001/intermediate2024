@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_-</name>
+   <name>Option for teacher</name>
    <tag></tag>
-   <elementGuidId>181cfd0a-d565-46f8-9ce6-125cc5775764</elementGuidId>
+   <elementGuidId>620b1632-1536-445c-aa22-d017d4e481b7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>WebUI.click(findTestObject('Object Repository/YourObjectRepository//p[@title=&quot;رياضيات الصف الرابع - فصل أول&quot;]'))&#xd;
-</value>
+         <value>//*/text()[normalize-space(.)='روان رافع']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>body div#__next</value>
+         <value>#react-select-4-option-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b3b5cbdf-98e2-47ec-9b0a-d3bef2629eaf</webElementGuid>
+      <webElementGuid>05605dc6-0590-4f1d-b006-cb3aee6bc922</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1gjqhh6-option</value>
-      <webElementGuid>32d756ae-d501-4c59-a811-80004e440c36</webElementGuid>
+      <webElementGuid>42323954-22e9-426c-abd6-f34f30c83de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,15 +39,15 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9cfe521b-6ff4-4902-a819-ddc6c75f9fe1</webElementGuid>
+      <webElementGuid>66fa95f0-615e-4176-b23f-d232efd06d4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>react-select-6-option-0</value>
-      <webElementGuid>8eb960c5-8658-45be-8bc6-846c1d080664</webElementGuid>
+      <value>react-select-4-option-0</value>
+      <webElementGuid>bbaacc68-ae63-4af0-ba96-071608483354</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +55,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>72fe74f6-38fc-4874-8675-0ef92dea563d</webElementGuid>
+      <webElementGuid>f378b3cb-128f-4830-b7a9-5abc2c76bfe4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +63,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>68848b4e-eda6-4cff-a234-c4d7b401e3af</webElementGuid>
+      <webElementGuid>f866924a-ccb1-41d3-9bfa-754a4878f17b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,94 +71,94 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>84488683-4e01-4269-9380-bcf98b745598</webElementGuid>
+      <webElementGuid>8dca36cd-54c4-4241-b122-c0d9463ff5fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>رياضيات الصف الرابع - فصل أول</value>
-      <webElementGuid>83394907-c91d-44eb-a023-b4674b0e62eb</webElementGuid>
+      <value>روان رافع</value>
+      <webElementGuid>de5d8fcb-a45d-4d53-b58a-de469811b8c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react-select-6-option-0&quot;)</value>
-      <webElementGuid>ab4e09eb-f978-4412-b46b-53554677617e</webElementGuid>
+      <value>id(&quot;react-select-4-option-0&quot;)</value>
+      <webElementGuid>3fb2f23b-5757-4e42-87a4-b3e41dc51dda</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='react-select-6-option-0']</value>
-      <webElementGuid>b81c9fa2-8a07-4654-a607-3e8dd9c05cbb</webElementGuid>
+      <value>//div[@id='react-select-4-option-0']</value>
+      <webElementGuid>6f45b08f-fe5d-4c0f-9a05-0f0468850e1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='react-select-6-listbox']/div</value>
-      <webElementGuid>f4037ed3-84e8-4b3a-ad77-9f5bbcff7cb9</webElementGuid>
+      <value>//div[@id='react-select-4-listbox']/div</value>
+      <webElementGuid>1bc5bf88-d683-49a1-a385-9bd1d2629f6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر المواد'])[1]/following::div[6]</value>
-      <webElementGuid>0228a473-9504-4c76-9adf-3038a9630470</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر المعلم'])[1]/following::div[6]</value>
+      <webElementGuid>3936335c-f866-4d60-9660-8d59a8865eeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='المواد'])[1]/following::div[10]</value>
-      <webElementGuid>68642c1d-07db-4642-a917-6c11a7952bfb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='المعلم'])[1]/following::div[10]</value>
+      <webElementGuid>13e8a3a7-3f93-4396-a9dd-ad6d65228618</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='رياضيات الصف الرابع - فصل ثاني'])[1]/preceding::div[1]</value>
-      <webElementGuid>8121c369-59b6-41fc-8e1e-3ace65b1defb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='نهاد برهم'])[1]/preceding::div[1]</value>
+      <webElementGuid>dfd7fe65-b2bb-4970-993d-23eb63ad56ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='اللغة العربية الصف الرابع - فصل أول'])[1]/preceding::div[2]</value>
-      <webElementGuid>45253013-ef77-45b2-a398-a9ac403c1a4e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='سارة خليفه'])[1]/preceding::div[2]</value>
+      <webElementGuid>fce29a88-a420-4f10-a88f-1270851c6202</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='رياضيات الصف الرابع - فصل أول']/parent::*</value>
-      <webElementGuid>04d0aa6b-143f-48c1-9518-f622e8eea003</webElementGuid>
+      <value>//*/text()[normalize-space(.)='روان رافع']/parent::*</value>
+      <webElementGuid>5f9d28ba-3ddc-4d2c-9ebf-b816eed059bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div[2]/div/div[2]/div/div</value>
-      <webElementGuid>6dfdb58b-2be2-4a81-bccb-bcad5f42d6c1</webElementGuid>
+      <value>//div[3]/div/div[2]/div/div</value>
+      <webElementGuid>ef919b78-0bd6-496a-99d3-0a28d9728ef1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'react-select-6-option-0' and (text() = 'رياضيات الصف الرابع - فصل أول' or . = 'رياضيات الصف الرابع - فصل أول')]</value>
-      <webElementGuid>df639487-c584-46b0-9e21-c427addcd855</webElementGuid>
+      <value>//div[@id = 'react-select-4-option-0' and (text() = 'روان رافع' or . = 'روان رافع')]</value>
+      <webElementGuid>dcea14bc-4f63-4c73-9c92-c4122f4ec0ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

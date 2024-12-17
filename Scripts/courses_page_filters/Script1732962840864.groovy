@@ -16,6 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.JavascriptExecutor
+
 
 WebUI.openBrowser('')
 
@@ -35,19 +39,27 @@ WebUI.sendKeys(findTestObject('Object Repository/lgoin and go to the my courese/
 
 WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_courses_page'))
 
-WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_for _option_subject'))
 
-WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_for _select_subject'))
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Choose Subject'))
 
-WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_for _option_teacher'))
+WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Option for subject'))
 
-WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_for _select_teacher'))
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Choose Teacher'))
+
+WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Option for teacher'))
+
+WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Teacher Card'))
 
 
+TestObject subjectName = findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_subject_in_card')
+JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+// Use JavaScript to center the element on the screen
+js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectName))
 WebUI.verifyElementText(findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_subject_in_card'),'رياضيات الصف الرابع - فصل أول')
 
+TestObject TeacherName = findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_teacher_in_card')
+// Use JavaScript to center the element on the screen
+js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(TeacherName))
 WebUI.verifyElementText(findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_teacher_in_card'),'روان رافع')
 
 

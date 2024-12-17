@@ -6,12 +6,11 @@
    <elementGuidId>7381e5d8-3c7c-4538-9074-0f8ab4e2267d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[(text() = 'مادة الرياضيات' or . = 'مادة الرياضيات')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='مادة الرياضيات']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>98a320f8-4246-4e9b-9cba-f27b973ede06</webElementGuid>
+      <webElementGuid>67524167-96bc-4747-b75f-68feb79b7e77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>value</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>045b7894-d781-42fb-b0a0-4003b91f0322</webElementGuid>
+      <webElementGuid>3c1c421e-7b11-48a4-9a92-a1160ae824b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tw-h-[40px] tw-min-w-[96px] tw-rounded-[14px] tw-px-2 tw-text-sm tw-text-white tw-transition-transform hover:tw-scale-105 tw-bg-black/20</value>
-      <webElementGuid>9b65a9c4-db8c-4241-8331-3cce2e154fba</webElementGuid>
+      <webElementGuid>2628ea53-4344-4b03-8f60-987e3ab23e2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>مادة الرياضيات</value>
-      <webElementGuid>e10d3102-417f-4ad0-b9a5-583300a3170f</webElementGuid>
+      <webElementGuid>4a042c7f-ebac-4d9f-9ac7-eb450e8fdad5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;scroll-to-filter-container&quot;)/div[@class=&quot;tw-my-3 tw-flex tw-w-full tw-flex-col&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-wrap tw-gap-4&quot;]/button[@class=&quot;tw-h-[40px] tw-min-w-[96px] tw-rounded-[14px] tw-px-2 tw-text-sm tw-text-white tw-transition-transform hover:tw-scale-105 tw-bg-black/20&quot;]</value>
-      <webElementGuid>e2eea36c-65e7-4185-9425-56aa43d92243</webElementGuid>
+      <webElementGuid>a44d33a3-5e34-4e65-87aa-d8788ed2225b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@value='20']</value>
-      <webElementGuid>51c6808f-d99a-4c9e-921f-3562fc456c14</webElementGuid>
+      <webElementGuid>1753bc0e-bff3-4366-be5d-17000a0af124</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='scroll-to-filter-container']/div[3]/div[2]/button</value>
-      <webElementGuid>d3b5785b-ea7e-46a3-9000-25ce910bec79</webElementGuid>
+      <webElementGuid>c2addc01-1905-4f70-95ca-7eba6fdbc743</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='حذف التعيينات'])[1]/following::button[1]</value>
-      <webElementGuid>16b41ece-c549-4c23-bd12-e06a0577de20</webElementGuid>
+      <webElementGuid>9dd79ee6-ec00-4383-91f8-f13bbd04e66d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر المعلم'])[1]/following::button[2]</value>
-      <webElementGuid>8b7a90d7-1242-4c27-8b61-1d07ff3103db</webElementGuid>
+      <webElementGuid>8fa6121a-9ddd-4d9d-9abd-8ac490d15dcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='مادة اللغة العربية'])[1]/preceding::button[1]</value>
-      <webElementGuid>ad53a238-15ab-4ea5-9f7a-cf63838cfdae</webElementGuid>
+      <webElementGuid>9021f66b-e6ed-464a-9a9b-00dc28cd8241</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='مادة العلوم'])[1]/preceding::button[2]</value>
-      <webElementGuid>c2a19cb8-e6d8-4f3c-89f8-6add643ed1c7</webElementGuid>
+      <webElementGuid>62434868-34a0-4132-bae7-15bfde0d3322</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='مادة الرياضيات']/parent::*</value>
-      <webElementGuid>667c4ab3-65ab-49b2-b042-6f0e740b1211</webElementGuid>
+      <webElementGuid>ba9f8a4c-f933-448c-8bde-6357087d3581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>19e56cca-7f37-46ed-93e8-694aefc941bd</webElementGuid>
+      <webElementGuid>c1939222-8ac6-4cc2-9691-4b79783056ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'مادة الرياضيات' or . = 'مادة الرياضيات')]</value>
-      <webElementGuid>49a7b58b-389c-44ba-8f12-f575d5229be8</webElementGuid>
+      <webElementGuid>e2f65358-4c7d-4147-b46f-7ced5ed127f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

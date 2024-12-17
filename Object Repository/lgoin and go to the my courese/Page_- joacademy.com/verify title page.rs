@@ -6,15 +6,15 @@
    <elementGuidId>3121e1fd-4dc4-40f0-b844-92faed32d9c8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>i.ri-close-line.tw-leading-none</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='radix-:r1a:']/div/h2</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>baa3cea6-d814-4004-900a-84f0bc3eafed</webElementGuid>
+      <webElementGuid>9584a38d-d149-48bb-bceb-ef7ed2cc585e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tw-mb-[15px] tw-text-[32px] tw-font-bold tw-text-[#1A428A]</value>
-      <webElementGuid>08d43e56-ed85-4b6e-aa5d-b9f35f3059b4</webElementGuid>
+      <webElementGuid>3f318404-f29f-4d55-9e5a-b55dfcbf01e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>بدأت مفاجآتنا الآن!</value>
-      <webElementGuid>9db58421-646d-474a-be1b-b7d290abb192</webElementGuid>
+      <webElementGuid>8ef0de84-b015-4f3c-bd2d-29323782fd2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:r1a:&quot;)/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center&quot;]/h2[@class=&quot;tw-mb-[15px] tw-text-[32px] tw-font-bold tw-text-[#1A428A]&quot;]</value>
-      <webElementGuid>9413f6e4-c59c-4598-96c9-cb2065c85a3d</webElementGuid>
+      <webElementGuid>6f835b1e-2062-4cea-b0fa-f0243730c7a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-:r1a:']/div/h2</value>
-      <webElementGuid>9fc72453-dc9c-4f04-b4f5-4c48305d1085</webElementGuid>
+      <webElementGuid>b8fc3a7a-3a3b-4fe2-b297-3b1c5057876d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='صفحاتنا على مواقع التواصل الاجتماعي'])[1]/following::h2[1]</value>
-      <webElementGuid>058ec7c9-5f44-4b08-a42d-61a1395dedc7</webElementGuid>
+      <webElementGuid>c6df16fd-a445-44db-9144-9b297f484148</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='WINDOWS'])[1]/following::h2[1]</value>
-      <webElementGuid>4cf674e7-35dc-4a1f-bfe7-44936f062364</webElementGuid>
+      <webElementGuid>7aae24af-c17f-4799-9263-74b695bb6c5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='احصل على العروض'])[1]/preceding::h2[1]</value>
-      <webElementGuid>2cfa8a04-ee0b-47c0-a1f4-0c0e803892e1</webElementGuid>
+      <webElementGuid>2a12a842-b21f-48cc-b780-f4502bb13cec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::h2[1]</value>
-      <webElementGuid>f3d455d8-82af-4c68-bec4-29fbc14f73b4</webElementGuid>
+      <webElementGuid>ea3380d1-ef97-4bcb-8d27-8acf50fb09b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='بدأت مفاجآتنا الآن!']/parent::*</value>
-      <webElementGuid>f0b1630c-803d-4f74-af24-57c14ead1888</webElementGuid>
+      <webElementGuid>1b3c4ef9-13a6-4cf9-9b56-86296c250e80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/h2</value>
-      <webElementGuid>21c96ad9-6fff-4353-8ef0-bc64207608f3</webElementGuid>
+      <webElementGuid>f7677b9c-ff65-4418-9351-a626cf94a638</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'بدأت مفاجآتنا الآن!' or . = 'بدأت مفاجآتنا الآن!')]</value>
-      <webElementGuid>6e6ab685-f4eb-4aec-838e-69fe141f2644</webElementGuid>
+      <webElementGuid>e1a889c1-3c87-404c-9cb1-df7c02204222</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

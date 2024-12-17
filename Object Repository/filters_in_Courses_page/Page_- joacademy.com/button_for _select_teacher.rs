@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = 'روان رافع' or . = 'روان رافع')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='روان رافع'])[1]/preceding::div[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4658d7e6-5f9b-4cd9-8def-874bf95ce277</webElementGuid>
+      <webElementGuid>69a0752a-83d3-42f8-a854-b01566f26c14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-s7axov</value>
-      <webElementGuid>f8949eea-b123-47b5-b088-6b0a48f305a7</webElementGuid>
+      <webElementGuid>ec9a03e1-a43c-4058-9b32-e50ab55e9335</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;scroll-to-filter-container&quot;)/div[@class=&quot;tw-grid tw-grid-cols-1 tw-gap-4 md:tw-grid-cols-2 xl:tw-grid-cols-auto-fit&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-gap-3&quot;]/div[@class=&quot;css-b62m3t-container&quot;]/div[@class=&quot;css-pnr4qt-control&quot;]/div[@class=&quot;css-1dyz3mf&quot;]/div[@class=&quot;css-xpgr51-multiValue&quot;]/div[@class=&quot;css-s7axov&quot;]</value>
-      <webElementGuid>3725935e-14eb-4920-b454-0036a2d19ca8</webElementGuid>
+      <webElementGuid>423c5beb-cafd-434d-a712-8ff26e2b7931</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>روان رافع</value>
-      <webElementGuid>8b4011e4-a2d6-4051-9e79-1e72bc64467d</webElementGuid>
+      <webElementGuid>5dd2a252-52e1-4671-a92b-6b2b020d2a5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='scroll-to-filter-container']/div[2]/div[3]/div/div/div/div/div</value>
-      <webElementGuid>17c9fc4d-f9a2-47f5-a074-7c65f95bda2c</webElementGuid>
+      <webElementGuid>6b545800-cfce-4914-bc68-e4fd7ffc4ed0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='option روان رافع, selected.'])[1]/following::div[4]</value>
-      <webElementGuid>ec22c222-05ed-4d85-9628-52aa2ce3f58c</webElementGuid>
+      <webElementGuid>72e1869c-d25e-42ee-af63-1401b88ec73b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='المعلم'])[1]/following::div[5]</value>
-      <webElementGuid>4e9380d1-4aeb-43fe-9d78-c1af2042e703</webElementGuid>
+      <webElementGuid>5f69661e-a36d-4fe8-be7d-9c40a8344de7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='نهاد برهم'])[1]/preceding::div[6]</value>
-      <webElementGuid>e553cdc0-8624-4f27-ac7e-c5e168d4e34d</webElementGuid>
+      <webElementGuid>93565a58-dfcd-4b21-9c16-1e22a634c492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='سارة خليفه'])[1]/preceding::div[7]</value>
-      <webElementGuid>427fac1d-e44e-4968-9e83-d224543dc47f</webElementGuid>
+      <webElementGuid>8eccf4f1-dae3-417c-b3a6-00f1e91156d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='روان رافع']/parent::*</value>
-      <webElementGuid>5289ec9f-000d-4392-b1ae-3c69a389b445</webElementGuid>
+      <webElementGuid>0ab527f2-a2d7-496c-b7a1-d9ceeeffbd5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div</value>
-      <webElementGuid>3a7026ff-bc1d-4b89-b6ac-bb10d52d736f</webElementGuid>
+      <webElementGuid>a1447c4a-5360-488a-a3c8-b980adf38820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'روان رافع' or . = 'روان رافع')]</value>
-      <webElementGuid>724582b4-3ffe-401c-a5d5-cf1c81eb7621</webElementGuid>
+      <webElementGuid>87a4139e-d882-4d56-8391-dd7d8d13333d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='scroll-to-filter-container']/div[2]/div[3]/div/div/div/div[2]</value>
-      <webElementGuid>e6864167-3109-487f-a6f0-89d278c9eeac</webElementGuid>
+      <webElementGuid>155bc1bb-7f68-46f8-b052-8a5c21a41a24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر المعلم'])[1]/following::div[1]</value>
-      <webElementGuid>d05b0176-fa0f-4910-b225-26070eb5da64</webElementGuid>
+      <webElementGuid>dc2a9fad-c58c-47ac-a834-5e3a1017a89d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='حذف التعيينات'])[1]/preceding::div[3]</value>
-      <webElementGuid>f57400ec-146f-4e52-af25-145a5954c2a0</webElementGuid>
+      <webElementGuid>9ab8fa18-c6ba-4d4c-8d3f-80eb2772d477</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='مادة الرياضيات'])[1]/preceding::div[5]</value>
-      <webElementGuid>67f75910-a51f-42cf-aaa1-d292b0cfd910</webElementGuid>
+      <webElementGuid>08517429-6600-41a4-ae60-4953e04fcdf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +151,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]</value>
-      <webElementGuid>f976e05b-0773-4f45-89e5-12f543776c10</webElementGuid>
+      <webElementGuid>f992a8ad-805e-4643-b01a-02722bf848eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,7 +159,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='روان رافع'])[1]/preceding::div[3]</value>
-      <webElementGuid>df8b3c73-d152-4393-b9f3-d15571939455</webElementGuid>
+      <webElementGuid>6ecac255-fc7f-4eca-b27f-26bb11701948</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -167,6 +167,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='نهاد برهم'])[1]/preceding::div[4]</value>
-      <webElementGuid>3e5ade7e-b34f-4a76-b0ba-9c0c66f1b784</webElementGuid>
+      <webElementGuid>6de6789a-a9f5-44a1-a41c-c409bd3e5d7a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
