@@ -21,21 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.joacademy.com/login')
 
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/span_'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/span_'))
 
-WebUI.setText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
+WebUI.setText(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
     'aeHFOx8jV/A=')
 
-WebUI.sendKeys(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
+WebUI.sendKeys(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_UserView Page - joacademy.com/my courses'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_UserView Page - joacademy.com/my courses'))
 
- WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/button_Close'))
+ WebUI.click(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/button_Close'))
  
-if (WebUI.waitForElementVisible(findTestObject('Object Repository/Verify for my courses/Page_- joacademy.com/verify my courses'), 10)) {
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/Lenaattoun/Verify for my courses/Page_- joacademy.com/verify my courses'), 10)) {
     WebUI.comment('Test Passed: The "verify my courses" element is visible.')
     
     WebUI.closeBrowser()

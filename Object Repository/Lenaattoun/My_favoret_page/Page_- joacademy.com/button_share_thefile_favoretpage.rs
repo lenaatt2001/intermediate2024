@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_share_thefile_favoretpage</name>
+   <tag></tag>
+   <elementGuidId>f855245f-65dc-4b09-bf50-7261e240ce4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.tw-inline-flex.tw-w-full.medium(1)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = 'المشاركة' or . = 'المشاركة')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c15deddc-2db3-4a7e-8310-54e34ad467ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-inline-flex tw-items-center tw-justify-center tw-whitespace-nowrap tw-rounded-md tw-text-sm tw-font-medium tw-ring-offset-white tw-transition-colors focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-slate-950 focus-visible:tw-ring-offset-2 disabled:tw-pointer-events-none disabled:tw-opacity-50 dark:tw-ring-offset-slate-950 dark:focus-visible:tw-ring-slate-300 tw-border tw-border-slate-200 tw-bg-white hover:tw-bg-slate-100 hover:tw-text-slate-900 dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:hover:tw-bg-slate-800 dark:hover:tw-text-slate-50 tw-h-10 tw-px-4 tw-py-2 lg:tw-w-[151px] tw-w-full lg:tw-h-[40px] !tw-rounded-[14px] md:tw-px-4 tw-bg-[#F8F6F6] hover:tw-bg-[#F1F1F1] !tw-border-[#1A428A] !tw-rounded-[8px] !tw-w-full medium</value>
+      <webElementGuid>d593783e-bd17-43e9-ac72-befd11caa88c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>blue</value>
+      <webElementGuid>cb4ebfdd-3289-4035-a00e-42227e3b7b68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>المشاركة</value>
+      <webElementGuid>5fbcca6b-4e10-4d8c-beb5-c52de29e843b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-gradient-to-br tw-from-[#905DF5] tw-to-[#813BEC]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative !tw-w-full tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] !tw-overflow-hidden&quot;]/div[1]/main[@class=&quot;tw-mt-4 tw-pb-[20px] sm:tw-pb-[50px]&quot;]/section[@class=&quot;tw-py-4&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center tw-mb-[35px] tw-h-full tw-gap-[10px] xl:tw-gap-[16px]&quot;]/div[@class=&quot;tw-relative tw-w-full&quot;]/article[@class=&quot;tw-flex tw-w-full tw-cursor-pointer tw-overflow-hidden tw-rounded-[10px] tw-border tw-gap-4 tw-p-4 tw-bg-[#F9F9F9]&quot;]/section[@class=&quot;tw-flex tw-flex-1 tw-grow tw-items-start tw-justify-between&quot;]/div[@class=&quot;tw-flex tw-h-full tw-items-end tw-gap-3&quot;]/button[@class=&quot;tw-w-full&quot;]/button[@class=&quot;tw-w-full tw-cursor-pointer&quot;]/button[@class=&quot;tw-inline-flex tw-items-center tw-justify-center tw-whitespace-nowrap tw-rounded-md tw-text-sm tw-font-medium tw-ring-offset-white tw-transition-colors focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-slate-950 focus-visible:tw-ring-offset-2 disabled:tw-pointer-events-none disabled:tw-opacity-50 dark:tw-ring-offset-slate-950 dark:focus-visible:tw-ring-slate-300 tw-border tw-border-slate-200 tw-bg-white hover:tw-bg-slate-100 hover:tw-text-slate-900 dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:hover:tw-bg-slate-800 dark:hover:tw-text-slate-50 tw-h-10 tw-px-4 tw-py-2 lg:tw-w-[151px] tw-w-full lg:tw-h-[40px] !tw-rounded-[14px] md:tw-px-4 tw-bg-[#F8F6F6] hover:tw-bg-[#F1F1F1] !tw-border-[#1A428A] !tw-rounded-[8px] !tw-w-full medium&quot;]</value>
+      <webElementGuid>185ee087-7d55-4ba3-aa5a-6b72f19a2d59</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/main/section[2]/div/div/article/section/div/button/button/button</value>
+      <webElementGuid>4a33e55b-8946-42b2-9f39-124c442cc7b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='| عدد مرات التحميل (2)'])[1]/following::button[3]</value>
+      <webElementGuid>2798b681-08aa-47e1-96f3-e00755b2a657</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='معلم جو أكاديمي صفوف'])[1]/following::button[3]</value>
+      <webElementGuid>2defec00-46c1-4a37-9d74-7bcf597a2690</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/button/button</value>
+      <webElementGuid>01b506b9-8d55-491a-9b17-9a98e8c26468</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'المشاركة' or . = 'المشاركة')]</value>
+      <webElementGuid>087f9692-29d7-47c1-9b3a-886bab5ecf02</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

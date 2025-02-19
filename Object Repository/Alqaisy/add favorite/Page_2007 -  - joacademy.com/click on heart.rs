@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>click on heart</name>
+   <tag></tag>
+   <elementGuidId>e1d16909-7c11-477c-b85f-a7b1bc956e18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div[2]/div/button[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>bf9975ba-c7bd-4030-8976-39a9153a14e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ri-heart-line</value>
+      <webElementGuid>8af6df2e-1814-44c8-96da-d7c54d0afe99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] tw-relative !tw-w-full !tw-overflow-hidden&quot;]/div[1]/div[@class=&quot;tw-flex tw-flex-col tw-gap-8&quot;]/div[@class=&quot;tw-rounded-lg tw-p-10&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-col tw-justify-between tw-gap-20 sm:tw-gap-4 md:tw-flex-row&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-4 tw-px-14 max-sm:tw-px-4&quot;]/div[@class=&quot;tw-flex tw-items-center tw-justify-center tw-gap-2&quot;]/button[@class=&quot;tw-bg-primary tw-flex tw-w-full tw-items-center tw-justify-center tw-gap-4 tw-rounded-lg tw-bg-[#034173] tw-p-3 tw-text-[18px] tw-font-bold tw-text-white max-sm:tw-text-[14px]&quot;]/i[@class=&quot;ri-heart-line&quot;]</value>
+      <webElementGuid>55f3d863-1fb8-40f7-a58e-6f36eed8a5fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div[2]/div/button[2]/i</value>
+      <webElementGuid>070a0318-27c4-4938-9abe-ccf3129a8e13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/i</value>
+      <webElementGuid>8d5262a1-ce76-4389-83ee-d0ccd971d0a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

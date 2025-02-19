@@ -27,39 +27,39 @@ WebUI.openBrowser('https://www.joacademy.com/login')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/span_'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/span_'))
 
-WebUI.setText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
+WebUI.setText(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
     'aeHFOx8jV/A=')
 
-WebUI.sendKeys(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
+WebUI.sendKeys(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('filters_in_Courses_page/Page_- joacademy.com/button_courses_page'))
+WebUI.click(findTestObject('Lenaattoun/filters_in_Courses_page/Page_- joacademy.com/button_courses_page'))
 
 
-WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Choose Subject'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/filters_in_Courses_page/Page_- joacademy.com (1)/Choose Subject'))
 
-WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Option for subject'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/filters_in_Courses_page/Page_- joacademy.com (1)/Option for subject'))
 
-WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Choose Teacher'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/filters_in_Courses_page/Page_- joacademy.com (1)/Choose Teacher'))
 
-WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Option for teacher'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/filters_in_Courses_page/Page_- joacademy.com (1)/Option for teacher'))
 
-WebUI.click(findTestObject('Object Repository/filters_in_Courses_page/Page_- joacademy.com (1)/Teacher Card'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/filters_in_Courses_page/Page_- joacademy.com (1)/Teacher Card'))
 
 
-TestObject subjectName = findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_subject_in_card')
+TestObject subjectName = findTestObject('Lenaattoun/filters_in_Courses_page/Page_- joacademy.com/result_subject_in_card')
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 // Use JavaScript to center the element on the screen
 js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectName))
-WebUI.verifyElementText(findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_subject_in_card'),'رياضيات الصف الرابع - فصل أول')
+WebUI.verifyElementText(findTestObject('Lenaattoun/filters_in_Courses_page/Page_- joacademy.com/result_subject_in_card'),'رياضيات الصف الرابع - فصل أول')
 
-TestObject TeacherName = findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_teacher_in_card')
+TestObject TeacherName = findTestObject('Lenaattoun/filters_in_Courses_page/Page_- joacademy.com/result_teacher_in_card')
 // Use JavaScript to center the element on the screen
 js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(TeacherName))
-WebUI.verifyElementText(findTestObject('filters_in_Courses_page/Page_- joacademy.com/result_teacher_in_card'),'روان رافع')
+WebUI.verifyElementText(findTestObject('Lenaattoun/filters_in_Courses_page/Page_- joacademy.com/result_teacher_in_card'),'روان رافع')
 
 

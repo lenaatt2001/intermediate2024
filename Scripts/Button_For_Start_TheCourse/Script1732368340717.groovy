@@ -24,60 +24,60 @@ WebUI.openBrowser("https://www.joacademy.com/login")
 
 //WebUI.navigateToUrl('https://www.joacademy.com/login')
 WebUI.maximizeWindow()
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/span_'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/span_'))
 
-WebUI.setText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
+WebUI.setText(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
     'aeHFOx8jV/A=')
 
-WebUI.sendKeys(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
+WebUI.sendKeys(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__password'), 
     Keys.chord(Keys.ENTER))
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_UserView Page - joacademy.com/my courses'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_UserView Page - joacademy.com/my courses'))
 
 //close page 
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/button_Close'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/button_Close'))
 //WebUI.scrollToElement(findTestObject('Object Repository/StartCourseButton'), 10)
 
 WebUI.delay(5)	
 
-TestObject courseStartBTN = findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_start the coures')
+TestObject courseStartBTN = findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/button_start the coures')
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 // Use JavaScript to center the element on the screen
 js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(courseStartBTN))
-WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_start the coures'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/button_start the coures'))
 
 
-WebUI.doubleClick(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/Button_close_the_unit'))
+WebUI.doubleClick(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/Button_close_the_unit'))
 
 
 
 
-WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/Enter_to_TheLesson'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/Enter_to_TheLesson'))
 
 // Step 1: Switch to the iframe
-WebUI.switchToFrame(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/iframe'), 10)
+WebUI.switchToFrame(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/iframe'), 10)
 
 //click start video
-WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_for_start_to_watch'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/button_for_start_to_watch'))
 
-WebUI.delay(5)
+WebUI.delay(1)
 
 // Step 3: Switch back to the main page
 WebUI.switchToDefaultContent()
 
-WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/button_for_stop_to_watch'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/button_for_stop_to_watch'))
 
 
-WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/Button_for_arrow_left'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/Button_for_arrow_left'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/Button_for_arrow_Right'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/Button_for_arrow_Right'))
 
-WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/Button_For_Back_To_The_Course'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/Button_For_Back_To_The_Course'))
 
-WebUI.click(findTestObject('Object Repository/Button_For_Start_TheCourse/Page_- joacademy.com/p__1'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/Button_For_Start_TheCourse/Page_- joacademy.com/p__1'))
 
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/button_Close'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/button_Close'))
 

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>header_2007 -  -   - 2007     (81)</name>
+   <tag></tag>
+   <elementGuidId>09a5bac7-772b-4014-a235-2d32df3b1f01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/main/section[2]/div/div[4]/article/section/header</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>header</value>
+      <webElementGuid>101764af-9d2e-4aa1-ae7a-1e2f95055c83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-flex tw-w-full tw-cursor-pointer tw-flex-col tw-mt-2 tw-gap-4 hover:tw-bg-[#e8eefc2d] max-sm:tw-text-center</value>
+      <webElementGuid>45044814-b2da-45ad-85d1-25ccebbb02da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>دوسية الأستاذ احمد عرابي تأسيس 2007رياضيات - علمي - فصل أول - 2007احمد عرابي| عدد مرات التحميل (81)</value>
+      <webElementGuid>d3170093-4646-4677-9708-2b54fd5506cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] tw-relative !tw-w-full !tw-overflow-hidden&quot;]/div[1]/main[@class=&quot;tw-mt-4 tw-pb-[20px] sm:tw-pb-[50px]&quot;]/section[@class=&quot;tw-py-4&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center tw-mb-[35px] tw-h-full tw-gap-[10px] xl:tw-gap-[16px]&quot;]/div[@class=&quot;tw-relative tw-w-full&quot;]/article[@class=&quot;tw-flex tw-w-full tw-cursor-pointer tw-overflow-hidden tw-rounded-[10px] tw-border tw-gap-4 tw-p-4 tw-bg-[#F9F9F9]&quot;]/section[@class=&quot;tw-flex tw-flex-1 tw-grow tw-items-start tw-justify-between&quot;]/header[@class=&quot;tw-flex tw-w-full tw-cursor-pointer tw-flex-col tw-mt-2 tw-gap-4 hover:tw-bg-[#e8eefc2d] max-sm:tw-text-center&quot;]</value>
+      <webElementGuid>7589b0c4-0358-4f63-8521-fe91cfb5adc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/main/section[2]/div/div[4]/article/section/header</value>
+      <webElementGuid>cdfd868f-8703-465b-adef-80ee273b50b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تحميل الملف'])[3]/following::header[1]</value>
+      <webElementGuid>a45c04d8-1648-47d2-bc53-d7a37e1b882a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='المشاركة'])[3]/following::header[1]</value>
+      <webElementGuid>70d4b3cf-9315-4ce7-ae58-e1ddba922bc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/article/section/header</value>
+      <webElementGuid>a3e0066b-40a0-4e1b-88fd-27802d238a44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//header[(text() = 'دوسية الأستاذ احمد عرابي تأسيس 2007رياضيات - علمي - فصل أول - 2007احمد عرابي| عدد مرات التحميل (81)' or . = 'دوسية الأستاذ احمد عرابي تأسيس 2007رياضيات - علمي - فصل أول - 2007احمد عرابي| عدد مرات التحميل (81)')]</value>
+      <webElementGuid>fac660a4-282e-4f81-8ec1-0af7095287fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

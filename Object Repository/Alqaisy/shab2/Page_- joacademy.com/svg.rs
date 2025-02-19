@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg</name>
+   <tag></tag>
+   <elementGuidId>0cd1f3da-c17f-47f4-9bda-bce213b09db5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='التعليقات'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.tw-m-0\.5 > svg</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>da168ff8-0075-45b1-8b53-00ddeeae41c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>18</value>
+      <webElementGuid>84fcc340-40be-4852-9398-f1c43e20d74a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>3fef12ea-71fc-4a30-8ab2-f14708465c4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 21 20</value>
+      <webElementGuid>5569ff46-be61-4a93-8e52-ca716e698fee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#979797</value>
+      <webElementGuid>11bc7f99-25cc-4a5e-820e-aa4224b5857a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>da2fce18-d4ee-40fa-b5a6-3b5163783c83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-mb-5 tw-mt-20 tw-px-4 lg:tw-px-8 2xl:tw-px-32&quot;]/div[@class=&quot;tw-w-full lg:tw-flex lg:tw-flex-row-reverse lg:tw-justify-between&quot;]/div[@class=&quot;lg:tw-w-[57%]&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-[18px] lg:tw-gap-[24px]&quot;]/div[@class=&quot;tw-h-fit tw-w-full tw-rounded-[12px] tw-border tw-bg-[#F9F9F9] !tw-p-[24px]&quot;]/div[@class=&quot;tw-flex tw-w-full tw-items-center tw-justify-between&quot;]/div[@class=&quot;tw-flex tw-w-full tw-items-center tw-justify-start tw-gap-2&quot;]/div[@class=&quot;tw-relative tw-flex tw-cursor-pointer tw-items-center tw-justify-center&quot;]/div[@class=&quot;tw-flex tw-items-center tw-justify-center tw-p-1&quot;]/div[@class=&quot;tw-m-0.5 tw-me-1  tw-flex tw-items-center tw-justify-center&quot;]/svg[1]</value>
+      <webElementGuid>78cd632d-64f7-4d4e-bc48-ed0492084cdb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='التعليقات'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>0d5b8797-5c15-46fe-bc8c-c2356dcd2a21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اعجاب'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>317f7529-76d7-4af8-852a-19491a3500fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اعجبني'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>5c3f8fcb-dc35-4c9f-84f7-a098246c8f3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='التعليقات'])[2]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>3437fcf9-3ab6-43c0-a869-217fdaa93af3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

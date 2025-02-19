@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select-files</name>
+   <tag></tag>
+   <elementGuidId>5a43318a-6021-4624-851b-e10f12b679c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'ملفات' or . = 'ملفات')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cbf0624c-99b8-4f0b-ad5f-6d8890a522a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tut</name>
+      <type>Main</type>
+      <value>files</value>
+      <webElementGuid>81a8bfdc-dbfc-4062-9c2f-446f03c634c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> bold tw-text-sm</value>
+      <webElementGuid>55783e87-9395-4dc6-b8bc-2a66e7670895</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ملفات</value>
+      <webElementGuid>d2bcb37f-4c59-42fc-99c1-d5d41a6d56cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-card&quot;)/div[@class=&quot;tw-h-full tw-w-full tw-bg-white tw-p-2 lg:tw-rounded-[14px] lg:tw-border lg:tw-border-gray-100 lg:tw-p-8&quot;]/div[@class=&quot;tw-flex tw-h-full tw-w-full tw-flex-col tw-items-start tw-justify-start tw-gap-[6px]&quot;]/a[@class=&quot;medium tw-flex tw-w-full tw-items-center tw-gap-1 tw-text-[16px] tw-text-[#343434]&quot;]/span[@class=&quot;bold tw-text-sm&quot;]</value>
+      <webElementGuid>1b8224f4-7d69-4724-a9cd-d4a79a26571c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-card']/div/div/a[8]/span</value>
+      <webElementGuid>1f24b1bd-9cd9-477a-8328-5891b36a81ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الدورات'])[1]/following::span[1]</value>
+      <webElementGuid>1de4fcd6-2a0f-438e-b13b-7436ab50c630</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='محفظتي'])[1]/following::span[2]</value>
+      <webElementGuid>33d57f11-6942-41aa-ab9d-df6f62e4d2da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='معلمون'])[1]/preceding::span[1]</value>
+      <webElementGuid>6a2f4e06-10f7-44ee-8f5b-c332cb8c1299</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='بكجات وعروض'])[1]/preceding::span[2]</value>
+      <webElementGuid>96266b17-ee2b-4497-9b72-8f5e9696cd49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ملفات']/parent::*</value>
+      <webElementGuid>2863cdd8-0297-4c1c-abd1-b54bf19ba8b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[8]/span</value>
+      <webElementGuid>939bd2af-d514-4852-97cd-6113711dce2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ملفات' or . = 'ملفات')]</value>
+      <webElementGuid>454d80a4-1bf6-4e65-ac6c-5956299cff0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

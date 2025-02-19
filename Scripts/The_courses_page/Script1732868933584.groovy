@@ -27,14 +27,14 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.joacademy.com/login')
 
-WebUI.click(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/span_'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/span_'))
 
-WebUI.setText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
+WebUI.setText(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'),
+WebUI.setEncryptedText(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__password'),
 	'aeHFOx8jV/A=')
 
-WebUI.sendKeys(findTestObject('Object Repository/lgoin and go to the my courese/Page_- joacademy.com/input__password'),
+WebUI.sendKeys(findTestObject('Object Repository/Lenaattoun/lgoin and go to the my courese/Page_- joacademy.com/input__password'),
 	Keys.chord(Keys.ENTER))
 WebUI.delay(10)
 
@@ -44,7 +44,7 @@ WebUI.navigateToUrl('https://www.joacademy.com/courses/intermediate?grade=855')
 String searchKeyword = 'علوم'
 
 // إدخال الكلمة المفتاحية في خانة البحث
-WebUI.setText(findTestObject('Object Repository/Page_- joacademy.com/input__search'), searchKeyword)
+WebUI.setText(findTestObject('Object Repository/Alqaisy/Page_- joacademy.com/input__search'), searchKeyword)
 
 // تأخير بسيط للسماح بتحميل النتائج
 WebUI.delay(2)
@@ -66,7 +66,7 @@ WebUI.delay(2)
 //
 //    // التفاعل مع الدورة (مثل فتح التفاصيل)
 //    WebUI.click(dynamicResult)
-//	WebUI.click(findTestObject('Object Repository/Page_- joacademy.com/button_for_detail_thecoursse'))
+//	WebUI.click(findTestObject('Object Repository/Alqaisy/Page_- joacademy.com/button_for_detail_thecoursse'))
 //	WebUI.delay(10)
 //	// الرجوع إلى الصفحة السابقة
 //	WebUI.back()
@@ -78,39 +78,39 @@ WebUI.delay(2)
 
 
 
-TestObject resetBTN = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_for_reset_filter')
+TestObject resetBTN = findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_for_reset_filter')
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 // Use JavaScript to center the element on the screen
 js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(resetBTN))
 
-//WebUI.click(findTestObject('Object Repository/Page_- joacademy.com/button_for_detail_thecoursse'))
-WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_for_reset_filter'))
+//WebUI.click(findTestObject('Object Repository/Alqaisy/Page_- joacademy.com/button_for_detail_thecoursse'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_for_reset_filter'))
 
 
-TestObject subjectMath = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_mathe')
+TestObject subjectMath = findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_mathe')
 // Use JavaScript to center the element on the screen
 js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectMath))
-WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_mathe'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_mathe'))
 
 
 
-TestObject subjectArabic = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_arabic')
+TestObject subjectArabic = findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_arabic')
 // Use JavaScript to center the element on the screen
 js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectArabic))
-WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_arabic'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_arabic'))
 
 
-TestObject subjectScience = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_science')
+TestObject subjectScience = findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_science')
 // Use JavaScript to center the element on the screen
 js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectScience))
-WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_science'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_science'))
 
 
 
-TestObject subjectEnglish = findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_English')
+TestObject subjectEnglish = findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_English')
 // Use JavaScript to center the element on the screen
 js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", WebUI.findWebElement(subjectEnglish))
-WebUI.click(findTestObject('Object Repository/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_English'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/The_courses_page/Page_- joacademy.com/button_gruop_ofsupject_English'))
 
 
 

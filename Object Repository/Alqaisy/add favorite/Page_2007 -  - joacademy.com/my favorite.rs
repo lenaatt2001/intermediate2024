@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>my favorite</name>
+   <tag></tag>
+   <elementGuidId>714b6b17-935c-48b3-90c1-dfdc2ebfc235</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-card']/div/div/a[4]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d7917dbb-2fb5-419b-8f31-2e401f09cdff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tut</name>
+      <type>Main</type>
+      <value>my-favorite</value>
+      <webElementGuid>6eed1a7b-78b0-4be2-bd41-8bfad1d39dd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> bold tw-text-sm</value>
+      <webElementGuid>78bed1a0-9b22-42ba-95b5-0344e33ef1f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>مفضلتي</value>
+      <webElementGuid>f3d131e3-394d-4ccd-ab06-3a778a664630</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-card&quot;)/div[@class=&quot;tw-h-full tw-w-full tw-bg-white tw-p-2 lg:tw-rounded-[14px] lg:tw-border lg:tw-border-gray-100 lg:tw-p-8&quot;]/div[@class=&quot;tw-flex tw-h-full tw-w-full tw-flex-col tw-items-start tw-justify-start tw-gap-[6px]&quot;]/a[@class=&quot;medium tw-flex tw-w-full tw-items-center tw-gap-1 tw-text-[16px] tw-text-[#343434]&quot;]/span[@class=&quot;bold tw-text-sm&quot;]</value>
+      <webElementGuid>c6107afd-b63b-453b-b4a3-5ffe51745a1f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-card']/div/div/a[4]/span</value>
+      <webElementGuid>059544c2-06ef-4e97-a86c-af6aff7a88f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ملفاتي'])[1]/following::span[1]</value>
+      <webElementGuid>9a6b1a09-224a-413c-bfc6-b1bd9a47ba33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='دوراتي'])[1]/following::span[2]</value>
+      <webElementGuid>3249282c-8fdf-4b32-bc1d-2020fb87bb1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رزنامتي'])[1]/preceding::span[1]</value>
+      <webElementGuid>6f0dec2f-ec1a-42ba-9473-b2bb142f70f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='محفظتي'])[1]/preceding::span[2]</value>
+      <webElementGuid>c7ee4ed5-735c-42bf-a99f-14d62d951bdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='مفضلتي']/parent::*</value>
+      <webElementGuid>fe135190-5f73-407d-a605-bc7bdde31ce7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]/span</value>
+      <webElementGuid>92759606-0f6b-4f43-9403-bb319e427755</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'مفضلتي' or . = 'مفضلتي')]</value>
+      <webElementGuid>2d1ff580-96b5-4474-99a1-20ee1ec99825</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

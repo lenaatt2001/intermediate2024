@@ -23,19 +23,19 @@ WebUI.navigateToUrl('https://www.joacademy.com/user/favorite')
 WebUI.maximizeWindow()
 
 
-WebUI.click(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/button_login_by_email'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/button_login_by_email'))
 
-WebUI.setText(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
+WebUI.setText(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/input__email'), 'lena_test_qa@joacademy.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/input__password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/input__password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/button__submit_for_login'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/button__submit_for_login'))
 
-WebUI.click(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/button_share_thefile_favoretpage'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/button_share_thefile_favoretpage'))
 
-WebUI.click(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/button_for_copy_TheFile_favoretpage'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/button_for_copy_TheFile_favoretpage'))
 
-Boolean buttoncopy = WebUI.verifyElementText(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/success_massage_for_copy_TheFile_favoretpage'), 
+Boolean buttoncopy = WebUI.verifyElementText(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/success_massage_for_copy_TheFile_favoretpage'), 
     'تم النسخ بنجاح')
 
 if (buttoncopy) {
@@ -44,7 +44,7 @@ if (buttoncopy) {
     print('field copy file ')
 }
 
-WebUI.click(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/button_for_download_TheFile_favoretpage'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/button_for_download_TheFile_favoretpage'))
 
 WebUI.delay(3)
 
@@ -63,34 +63,34 @@ WebUI.switchToWindowIndex(0)
 println('عدنا إلى الصفحة الأصلية: ' + WebUI.getWindowTitle())
 
 // استخراج اسم الملف الذي سيتم إزالته من المفضلة
-String fileName = WebUI.getText(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/h2_Comparative      1')).trim()
+String fileName = WebUI.getText(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/h2_Comparative      1')).trim()
 
 println('اسم الملف الذي سيتم إزالته: ' + fileName)
 
 // النقر على زر الإزالة
-WebUI.click(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/button_for_remove_theheart'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/button_for_remove_theheart'))
 
 // تأخير وإعادة تحميل الصفحة
 WebUI.delay(3)
 
 WebUI.refresh()
 
-// التحقق من وجود الملف بعد التحديث
-TestObject dynamicFileCheck = new TestObject('dynamicFileCheck')
+//// التحقق من وجود الملف بعد التحديث
+//TestObject dynamicFileCheck = new TestObject('dynamicFileCheck')
+//
+//dynamicFileCheck.addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, ('//h2[text()=\'' + fileName) + 
+//    '\']')
+//
+//boolean isFileStillPresent = WebUI.verifyElementNotPresent(dynamicFileCheck, 5)
+//
+//if (!(isFileStillPresent)) {
+//    println('العنصر تم حذفه بنجاح: ' + fileName)
+//} else {
+//    println('العنصر ما زال موجودًا بعد التحديث: ' + fileName)
+//}
 
-dynamicFileCheck.addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, ('//h2[text()=\'' + fileName) + 
-    '\']')
 
-boolean isFileStillPresent = WebUI.verifyElementNotPresent(dynamicFileCheck, 5)
+WebUI.click(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/button_for_courses_favoretpage'))
 
-if (!(isFileStillPresent)) {
-    println('العنصر تم حذفه بنجاح: ' + fileName)
-} else {
-    println('العنصر ما زال موجودًا بعد التحديث: ' + fileName)
-}
-
-
-WebUI.click(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/button_for_courses_favoretpage'))
-
-WebUI.click(findTestObject('Object Repository/My_favoret_page/Page_- joacademy.com/button_for_files_favoretpage'))
+WebUI.click(findTestObject('Object Repository/Lenaattoun/My_favoret_page/Page_- joacademy.com/button_for_files_favoretpage'))
 

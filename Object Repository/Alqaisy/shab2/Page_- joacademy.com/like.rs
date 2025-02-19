@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>like</name>
+   <tag></tag>
+   <elementGuidId>09f99bc4-355f-4401-84c4-13912753e650</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'اعجبني' or . = 'اعجبني')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;اعجبني&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>378ca825-e57a-4c27-b2fb-69267efecd3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-px-1 tw-pt-1 tw-text-sm tw-font-bold tw-duration-75 tw-ease-in-out md:tw-text-base tw-text-[#1A428A] </value>
+      <webElementGuid>fbe5108b-6404-468b-ad3a-869ce48112ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>اعجبني</value>
+      <webElementGuid>2a065145-cff8-403b-b95c-666437feacaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-mb-5 tw-mt-20 tw-px-4 lg:tw-px-8 2xl:tw-px-32&quot;]/div[@class=&quot;tw-w-full lg:tw-flex lg:tw-flex-row-reverse lg:tw-justify-between&quot;]/div[@class=&quot;lg:tw-w-[57%]&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-[18px] lg:tw-gap-[24px]&quot;]/div[@class=&quot;tw-h-fit tw-w-full tw-rounded-[12px] tw-border tw-bg-[#F9F9F9] !tw-p-[24px]&quot;]/div[@class=&quot;tw-flex tw-w-full tw-items-center tw-justify-between&quot;]/div[@class=&quot;tw-flex tw-w-full tw-items-center tw-justify-start tw-gap-2&quot;]/div[@class=&quot;tw-relative tw-flex tw-cursor-pointer tw-items-center tw-justify-center&quot;]/div[@class=&quot;tw-flex tw-items-center tw-justify-center tw-p-1&quot;]/span[@class=&quot;tw-px-1 tw-pt-1 tw-text-sm tw-font-bold tw-duration-75 tw-ease-in-out md:tw-text-base tw-text-[#1A428A]&quot;]</value>
+      <webElementGuid>582bc184-dc86-40cd-ba6b-682e5b0e408d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/div[6]/div/div/div/span</value>
+      <webElementGuid>8d69995d-8dbd-4729-a0b0-89ed04c25557</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='التعليقات'])[1]/following::span[1]</value>
+      <webElementGuid>26fd8c8f-cf56-4f86-83a3-685fb71abaa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اعجاب'])[1]/following::span[3]</value>
+      <webElementGuid>e2023165-2d4f-427e-9945-64c187b2a463</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='التعليقات'])[2]/preceding::span[1]</value>
+      <webElementGuid>3bf62b84-0a9f-411c-ab1c-fd4104fa0fbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mohannad qa qa'])[2]/preceding::span[2]</value>
+      <webElementGuid>56c8a346-82f4-49c2-93a6-d2b485701051</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='اعجبني']/parent::*</value>
+      <webElementGuid>8c46d8f2-d25c-4f49-9678-0354297eac66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/span</value>
+      <webElementGuid>dc35432f-fd7a-45ab-835e-75054d3453d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'اعجبني' or . = 'اعجبني')]</value>
+      <webElementGuid>3d6d4a97-d725-464c-90ed-0d05d775ecc2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

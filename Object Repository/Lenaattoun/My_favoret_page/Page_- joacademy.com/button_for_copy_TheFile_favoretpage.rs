@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_for_copy_TheFile_favoretpage</name>
+   <tag></tag>
+   <elementGuidId>93789c89-22bc-4bb8-b659-d2f706daebc3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[5]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>2318fe5d-c52d-4368-8c99-2cfafad3812f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ri-file-copy-fill  tw-text-[#1A428A]</value>
+      <webElementGuid>1d6374bf-d4ac-4d09-993f-1f77c71ada93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r17:&quot;)/button[@class=&quot;tw-cursor-pointer&quot;]/button[1]/i[@class=&quot;ri-file-copy-fill  tw-text-[#1A428A]&quot;]</value>
+      <webElementGuid>03a1f45e-fe96-4c85-ae7d-3f44d6d1b85f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r17:']/button[5]/button/i</value>
+      <webElementGuid>2d3a18d6-2606-4e42-b0b1-ce46435e1057</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[5]/button/i</value>
+      <webElementGuid>b752f326-54db-48ec-af4b-c239969e5613</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

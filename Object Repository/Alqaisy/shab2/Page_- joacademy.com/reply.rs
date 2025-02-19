@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>reply</name>
+   <tag></tag>
+   <elementGuidId>9c01f296-053b-44cc-8ca0-4623bbb1e8d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.tw-cursor-pointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[(text() = 'رد' or . = 'رد')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;رد&quot;s >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>9ee559f5-6145-436d-8ec0-ea014a068ded</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-cursor-pointer</value>
+      <webElementGuid>ce692fc5-aa8f-4ac0-8bcd-19c4fb35160f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>رد</value>
+      <webElementGuid>aec9eb7a-820e-4191-bc05-e17153071e39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-mb-5 tw-mt-20 tw-px-4 lg:tw-px-8 2xl:tw-px-32&quot;]/div[@class=&quot;tw-w-full lg:tw-flex lg:tw-flex-row-reverse lg:tw-justify-between&quot;]/div[@class=&quot;lg:tw-w-[57%]&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-[18px] lg:tw-gap-[24px]&quot;]/div[@class=&quot;tw-h-fit tw-w-full tw-rounded-[12px] tw-border tw-bg-[#F9F9F9] !tw-p-[24px]&quot;]/div[@class=&quot;tw-relative tw-mt-4 tw-flex tw-flex-col tw-items-center tw-justify-between&quot;]/div[@class=&quot;tw-mb-2 tw-flex tw-w-full tw-items-center tw-justify-start tw-gap-[4px]&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-col tw-overflow-hidden&quot;]/div[@class=&quot;tw-ms-[25px] tw-mt-1 tw-flex tw-items-center tw-justify-start tw-gap-2.5 tw-text-[12px] tw-font-normal&quot;]/p[@class=&quot;tw-cursor-pointer&quot;]</value>
+      <webElementGuid>5105fd20-8c00-4a84-ae84-1fe0843b66e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/div[8]/div/div[2]/div[2]/p</value>
+      <webElementGuid>4c7fd43f-8d09-45a9-830a-b6129c02d21d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='joj'])[1]/following::p[1]</value>
+      <webElementGuid>cfc075f6-1135-4915-96d7-ccd878799b83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mohannad qa qa'])[2]/following::p[1]</value>
+      <webElementGuid>4a46ecde-baf4-4559-9221-faa2d3bbda44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mohannad qa qa'])[3]/preceding::p[3]</value>
+      <webElementGuid>8cd80196-cfc2-4806-9154-7fdb22062db3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jo'])[2]/preceding::p[3]</value>
+      <webElementGuid>f1421342-01e2-4b61-85ee-f01e1ff3c65c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='رد']/parent::*</value>
+      <webElementGuid>d027cdd1-e34b-4500-aa5d-7c4f7410adab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>ad7220e5-26b4-4fe9-96ee-8719f160b75d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'رد' or . = 'رد')]</value>
+      <webElementGuid>278a3160-d03e-4058-bfee-61e61d7e1456</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

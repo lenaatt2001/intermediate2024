@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_2007</name>
+   <tag></tag>
+   <elementGuidId>6b843b57-31a8-46a7-b1ec-d8588a3285fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/main/section[2]/div/div[4]/article/section/header/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>7251db16-fd36-48b9-b397-6cfd7c84be6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-line-clamp-2 tw-flex-1 tw-text-sm tw-font-bold sm:tw-text-[18px] tw-text-[#000] tw-text-[#1A428A]</value>
+      <webElementGuid>c77cfab5-4047-4344-a636-a54e7529c942</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>دوسية الأستاذ احمد عرابي تأسيس 2007</value>
+      <webElementGuid>804ab765-954e-4a68-8d10-0884297c1731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] tw-relative !tw-w-full !tw-overflow-hidden&quot;]/div[1]/main[@class=&quot;tw-mt-4 tw-pb-[20px] sm:tw-pb-[50px]&quot;]/section[@class=&quot;tw-py-4&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center tw-mb-[35px] tw-h-full tw-gap-[10px] xl:tw-gap-[16px]&quot;]/div[@class=&quot;tw-relative tw-w-full&quot;]/article[@class=&quot;tw-flex tw-w-full tw-cursor-pointer tw-overflow-hidden tw-rounded-[10px] tw-border tw-gap-4 tw-p-4 tw-bg-[#F9F9F9]&quot;]/section[@class=&quot;tw-flex tw-flex-1 tw-grow tw-items-start tw-justify-between&quot;]/header[@class=&quot;tw-flex tw-w-full tw-cursor-pointer tw-flex-col tw-mt-2 tw-gap-4 hover:tw-bg-[#e8eefc2d] max-sm:tw-text-center&quot;]/h2[@class=&quot;tw-line-clamp-2 tw-flex-1 tw-text-sm tw-font-bold sm:tw-text-[18px] tw-text-[#000] tw-text-[#1A428A]&quot;]</value>
+      <webElementGuid>585fa7b1-79a0-4ba8-9fde-1f9daab38085</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/main/section[2]/div/div[4]/article/section/header/h2</value>
+      <webElementGuid>c1d37050-4843-4c3a-b6f4-2c57b5bd3417</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تحميل الملف'])[3]/following::h2[1]</value>
+      <webElementGuid>3d6e1043-e851-4ce0-8a48-9088742473c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='المشاركة'])[3]/following::h2[1]</value>
+      <webElementGuid>c9f5d1d4-5220-406f-961d-f3de4f651105</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رياضيات - علمي - فصل أول - 2007'])[2]/preceding::h2[1]</value>
+      <webElementGuid>e624e7e0-cce6-407a-8810-8781583abd2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='احمد عرابي'])[1]/preceding::h2[1]</value>
+      <webElementGuid>1ff0c599-9f70-4556-b9f1-33bad9239f87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='دوسية الأستاذ احمد عرابي تأسيس 2007']/parent::*</value>
+      <webElementGuid>02649ca6-fbb0-4cc6-b255-e3b806e36ee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/article/section/header/h2</value>
+      <webElementGuid>2fee6b61-0de3-4964-9df9-de41ede47b50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'دوسية الأستاذ احمد عرابي تأسيس 2007' or . = 'دوسية الأستاذ احمد عرابي تأسيس 2007')]</value>
+      <webElementGuid>467cda1d-2093-4484-8711-f18125430133</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

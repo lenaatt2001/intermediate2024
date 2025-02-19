@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_jo academyy</name>
+   <tag></tag>
+   <elementGuidId>04054ec8-4cb3-4987-bc26-24895eb00bf4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//textarea[@id='description'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=textbox[name=&quot;ماذا يخطر في بالك ؟&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>5169d915-3e44-4f16-94ca-1eb20332a0dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>description</value>
+      <webElementGuid>8b6cff5f-09e4-4604-a2a1-929253c19684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-min-h-12 tw-p-3 tw-h-auto tw-w-full tw-resize-none tw-overflow-auto tw-rounded-xl tw-border tw-border-gray-200 tw-p-4 tw-outline-none placeholder:tw-text-[#979797]</value>
+      <webElementGuid>5cbd1f07-72c9-4a34-ba67-f6be193a3b52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>ماذا يخطر في بالك ؟</value>
+      <webElementGuid>efc6e72e-04bd-4e53-8274-de9a2808b460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>8</value>
+      <webElementGuid>55b98b67-fe09-4b64-9738-fbea254cd2c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>jo academyy</value>
+      <webElementGuid>04cf642a-64b3-48e9-afbb-44e4e0646b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r15:&quot;)/div[@class=&quot;tw-max-h-[70vh] tw-overflow-auto&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-col tw-items-start tw-justify-start tw-gap-[12px] tw-px-5&quot;]/div[@class=&quot;tw-h-full tw-w-full&quot;]/textarea[@id=&quot;description&quot;]</value>
+      <webElementGuid>8b8802a1-1ced-4f06-85fe-0d8e1625da9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//textarea[@id='description'])[2]</value>
+      <webElementGuid>374a4996-61ed-4e56-be93-79934117f748</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r15:']/div/div/div[2]/textarea</value>
+      <webElementGuid>987be873-a9c4-438c-80d0-f2ced6136c8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='٣٠ نوفمبر ٢٠٢٤ ١٩:٠٨'])[2]/following::textarea[1]</value>
+      <webElementGuid>076ddc30-6ffc-46d6-ae67-f4d447e18c47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mohannad qa qa'])[3]/following::textarea[1]</value>
+      <webElementGuid>be05a6f3-a62a-4505-99a6-2fe52161a196</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اضافة الى منشورك'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>25a1e822-ef4e-4cc6-a66d-ef077377c8f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='انشر'])[2]/preceding::textarea[1]</value>
+      <webElementGuid>e1bcc936-cc6e-49d4-bfab-2cfa1d634316</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='jo academyy']/parent::*</value>
+      <webElementGuid>a2276b96-0784-444f-88cb-9006603ad402</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/textarea</value>
+      <webElementGuid>10be3d83-fc69-4af0-917f-baadc68178bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'description' and @placeholder = 'ماذا يخطر في بالك ؟' and (text() = 'jo academyy' or . = 'jo academyy')]</value>
+      <webElementGuid>8fff870c-a373-4d6c-83ce-1dd7245232db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
